@@ -1,0 +1,55 @@
+2026-04-16 11:23:04.174 - Notification - You successfully added 1 test
+2026-04-16 11:40:15.246 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:40:15.247 - Debug - Web socket state : Error
+2026-04-16 11:40:27.535 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:40:27.536 - Debug - Web socket state : Connecting
+2026-04-16 11:40:27.594 - Debug - Websocket connection opened
+2026-04-16 11:40:29.896 - Notification - Game mode selected : solo
+2026-04-16 11:40:31.376 - Notification - Game mode selected : team
+2026-04-16 11:40:33.236 - Notification - Game mode selected : solo
+2026-04-16 11:40:33.776 - Notification - Game mode selected : team
+2026-04-16 11:40:39.406 - Notification - Game mode selected : solo
+2026-04-16 11:40:39.819 - Notification - Game mode selected : team
+2026-04-16 11:40:40.204 - Notification - Game mode selected : solo
+2026-04-16 11:41:00.217 - Notification - You successfully covered 10 lines of code.
+2026-04-16 11:43:39.686 - Notification - You successfully covered 33 lines of code.
+2026-04-16 11:46:23.894 - Notification - You successfully added 10 tests
+2026-04-16 11:52:23.876 - Notification - Game mode selected : team
+2026-04-16 11:52:30.981 - Notification - Game mode selected : solo
+2026-04-16 11:55:06.248 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:55:06.249 - Debug - Web socket state : Error
+2026-04-16 11:55:43.36 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:55:43.361 - Debug - Web socket state : Connecting
+2026-04-16 11:55:43.415 - Debug - Websocket connection opened
+2026-04-16 11:55:44.413 - Notification - Game mode selected : team
+2026-04-16 11:56:19.603 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:56:19.603 - Debug - Web socket state : Error
+2026-04-16 11:56:33.639 - Notification - Game mode selected : solo
+2026-04-16 11:56:34.112 - Notification - Game mode selected : team
+2026-04-16 11:56:37.84 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:56:37.84 - Debug - Web socket state : Connecting
+2026-04-16 11:56:37.878 - Debug - Websocket connection opened
+2026-04-16 11:56:38.956 - Notification - Game mode selected : solo
+2026-04-16 11:56:39.419 - Notification - Game mode selected : team
+2026-04-16 12:10:25.541 - Notification - Game mode selected : solo
+2026-04-16 12:10:28.42 - Notification - Game mode selected : team
+2026-04-16 12:10:28.791 - Notification - Game mode selected : solo
+2026-04-16 12:10:29.146 - Notification - Game mode selected : team
+2026-04-16 12:10:30.938 - Notification - Game mode selected : solo
+2026-04-16 12:10:31.803 - Notification - Game mode selected : team
+2026-04-16 12:10:48.339 - Error - Websocket failure : Cannot parse null string
+2026-04-16 12:10:48.34 - Debug - Web socket state : Error
+2026-04-16 12:12:44.48 - Notification - Game mode selected : solo
+2026-04-16 12:13:44.303 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 12:13:44.304 - Debug - Web socket state : Connecting
+2026-04-16 12:13:44.384 - Debug - Websocket connection opened
+2026-04-16 12:14:29.918 - Notification - Game mode selected : team
+2026-04-16 12:20:34.378 - Notification - Kill your first mutant
+2026-04-16 12:20:34.388 - Notification - 5 mutants returned to primordial soup
+2026-04-16 12:20:34.396 - Notification - 10 mutants returned to primordial soup
+2026-04-16 12:20:34.404 - Notification - 25 mutants returned to primordial soup
+2026-04-16 12:20:38.977 - Notification - The dragon is relieved
+2026-04-16 12:30:09.094 - Debug - POST 3 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Coverage.csv (1356 bytes)
+- EvaluationLogs.txt (3515 bytes)
+- Actions.csv (2761 bytes)
+

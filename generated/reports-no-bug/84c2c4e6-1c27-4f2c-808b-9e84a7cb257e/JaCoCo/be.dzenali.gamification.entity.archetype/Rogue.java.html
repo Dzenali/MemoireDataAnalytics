@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Rogue.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-gamification</a> &gt; <a href="index.source.html" class="el_package">be.dzenali.gamification.entity.archetype</a> &gt; <span class="el_source">Rogue.java</span></div><h1>Rogue.java</h1><pre class="source lang-java linenums">package be.dzenali.gamification.entity.archetype;
+
+import be.dzenali.gamification.data.StatBlock;
+import be.dzenali.gamification.entity.Monster;
+import be.dzenali.gamification.entity.Player;
+import be.dzenali.gamification.item.Item;
+import be.dzenali.gamification.item.armor.Gabison;
+import be.dzenali.gamification.item.weapon.DualDagger;
+
+import java.util.ArrayList;
+
+public class Rogue extends Player {
+    private int energy;
+
+    /**
+     * Basic archetype of a &quot;c&quot; user
+     */
+    public Rogue() {
+<span class="nc" id="L19">        super(&quot;Rogue&quot;,</span>
+                1,
+                new StatBlock(12,18,12,10,10,12),
+                new Gabison(),
+                new DualDagger(),
+                new ArrayList&lt;Item&gt;());
+<span class="nc" id="L25">        this.energy = 100;</span>
+<span class="nc" id="L26">    }</span>
+
+    /**
+     * Execute a monster if is health is currently lower than 10% of max health
+     * @param monster the Monster to execute
+     * @return currentHP of monster
+     */
+    public int execute(Monster monster) {
+<span class="nc bnc" id="L34" title="All 4 branches missed.">        if((monster.getHealthPoints().getCurrentHP() &lt; monster.getHealthPoints().getMaxHP()/10) &amp;&amp; energy &gt;= 10){</span>
+<span class="nc" id="L35">            System.out.println(&quot;You execute your enemy!&quot;);</span>
+<span class="nc" id="L36">            return monster.getHealthPoints().getCurrentHP();</span>
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        } else if (energy &lt; 10){</span>
+<span class="nc" id="L38">            System.out.println(&quot;You don't have enough energy...&quot;);</span>
+<span class="nc" id="L39">            return 0;</span>
+        } else {
+<span class="nc" id="L41">            System.out.println(&quot;Enemy's life to high.&quot;);</span>
+<span class="nc" id="L42">            return 0;</span>
+        }
+    }
+
+    public int shadowClone(){
+<span class="nc" id="L47">        return attack()*2;</span>
+    }
+
+    public int getRessource(){
+<span class="nc" id="L51">        return energy;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

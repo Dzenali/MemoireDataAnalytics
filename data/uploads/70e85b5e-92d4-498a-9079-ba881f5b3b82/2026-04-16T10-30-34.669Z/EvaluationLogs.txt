@@ -1,0 +1,28 @@
+2026-04-16 11:20:58.781 - Notification - You successfully added 1 test
+2026-04-16 11:40:26.94 - Notification - You successfully covered 10 lines of code.
+2026-04-16 11:52:10.596 - Notification - You successfully covered 33 lines of code.
+2026-04-16 11:52:10.71 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:52:10.711 - Debug - Web socket state : Error
+2026-04-16 11:53:45.426 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:53:45.428 - Debug - Web socket state : Connecting
+2026-04-16 11:53:45.469 - Debug - Websocket connection opened
+2026-04-16 11:53:50.425 - Notification - Game mode selected : solo
+2026-04-16 11:53:51.025 - Notification - Game mode selected : team
+2026-04-16 11:54:38.335 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:54:38.336 - Debug - Web socket state : Error
+2026-04-16 11:55:00.101 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:55:00.102 - Debug - Web socket state : Connecting
+2026-04-16 11:55:00.145 - Debug - Websocket connection opened
+2026-04-16 12:14:14.597 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 12:14:14.599 - Debug - Web socket state : Connecting
+2026-04-16 12:14:14.829 - Debug - Websocket connection opened
+2026-04-16 12:14:15.156 - Notification - Game mode selected : team
+2026-04-16 12:18:51.072 - Notification - Kill your first mutant
+2026-04-16 12:18:51.105 - Notification - 5 mutants returned to primordial soup
+2026-04-16 12:18:51.128 - Notification - 10 mutants returned to primordial soup
+2026-04-16 12:18:51.16 - Notification - 25 mutants returned to primordial soup
+2026-04-16 12:27:28.177 - Notification - The dragon is relieved
+2026-04-16 12:30:34.78 - Debug - POST 3 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Actions.csv (1726 bytes)
+- Coverage.csv (582 bytes)
+- EvaluationLogs.txt (1692 bytes)
+

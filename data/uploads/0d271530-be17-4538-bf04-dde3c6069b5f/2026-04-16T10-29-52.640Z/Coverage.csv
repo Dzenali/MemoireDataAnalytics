@@ -1,0 +1,9 @@
+totalClassCount,coveredClassCount,totalMethodCount,coveredMethodCount,totalLineCount,coveredLineCount,totalBranchCount,coveredBranchCount,testedClass,testName
+1,1,6,6,9,9,4,2,be.dzenali.gamification.item.Equipment,EquipmentTest
+2,2,7,7,18,18,8,8,be.dzenali.gamification.item.Armor,ArmorTest
+1,1,6,6,9,9,4,4,be.dzenali.gamification.item.Equipment,EquipmentTest
+2,2,7,7,18,18,8,8,be.dzenali.gamification.item.Armor,ArmorTest
+1,1,6,6,9,9,4,4,be.dzenali.gamification.item.Equipment,EquipmentTest
+2,2,7,7,18,18,8,8,be.dzenali.gamification.item.Armor,ArmorTest
+1,1,6,3,10,5,2,2,be.dzenali.gamification.item.Weapon,WeaponTest
+1,1,6,6,10,10,2,2,be.dzenali.gamification.item.Weapon,WeaponTest

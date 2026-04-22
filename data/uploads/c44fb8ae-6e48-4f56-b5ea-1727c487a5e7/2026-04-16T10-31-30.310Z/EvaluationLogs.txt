@@ -1,0 +1,25 @@
+2026-04-16 11:55:04.018 - Notification - Game mode selected : solo
+2026-04-16 11:55:06.242 - Notification - Game mode selected : team
+2026-04-16 11:55:06.674 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:55:06.675 - Debug - Web socket state : Error
+2026-04-16 11:55:13.187 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:55:13.188 - Debug - Web socket state : Connecting
+2026-04-16 11:55:13.25 - Debug - Websocket connection opened
+2026-04-16 11:56:20.197 - Error - Websocket failure : Cannot parse null string
+2026-04-16 11:56:20.198 - Debug - Web socket state : Error
+2026-04-16 11:56:38.062 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 11:56:38.063 - Debug - Web socket state : Connecting
+2026-04-16 11:56:38.101 - Debug - Websocket connection opened
+2026-04-16 11:56:47.978 - Notification - Game mode selected : solo
+2026-04-16 12:07:37.905 - Notification - Game mode selected : team
+2026-04-16 12:10:48.843 - Error - Websocket failure : Cannot parse null string
+2026-04-16 12:10:48.844 - Debug - Web socket state : Error
+2026-04-16 12:12:30.703 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
+2026-04-16 12:12:30.704 - Debug - Web socket state : Connecting
+2026-04-16 12:12:32.226 - Debug - Websocket connection opened
+2026-04-16 12:16:15.628 - Error - Websocket failure : Connection reset
+2026-04-16 12:16:15.63 - Debug - Web socket state : Error
+2026-04-16 12:17:31.098 - Notification - Game mode selected : solo
+2026-04-16 12:31:29.755 - Debug - POST 2 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Actions.csv (156 bytes)
+- EvaluationLogs.txt (1489 bytes)
+

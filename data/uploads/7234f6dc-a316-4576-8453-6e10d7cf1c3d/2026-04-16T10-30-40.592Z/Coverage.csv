@@ -1,0 +1,6 @@
+totalClassCount,coveredClassCount,totalMethodCount,coveredMethodCount,totalLineCount,coveredLineCount,totalBranchCount,coveredBranchCount,testedClass,testName
+1,1,5,5,17,17,8,8,be.dzenali.gamification.data.StatBlock,StatBlockTest
+1,1,12,10,20,17,2,1,be.dzenali.gamification.entity.Monster,MonsterTest
+1,0,8,0,22,0,0,0,be.dzenali.gamification.builders.MonsterBuilder,MonsterTest
+1,1,12,11,20,19,2,1,be.dzenali.gamification.entity.Monster,MonsterTest
+1,0,8,0,22,0,0,0,be.dzenali.gamification.builders.MonsterBuilder,MonsterTest

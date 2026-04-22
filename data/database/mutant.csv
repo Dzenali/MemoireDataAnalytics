@@ -1,0 +1,298 @@
+id,source_file,mutated_method,line_number,index,description
+1,CombatSystem.java,enemyTurn,133,22,Replaced integer division with multiplication
+2,CombatSystem.java,enemyTurn,133,13,negated conditional
+3,CombatSystem.java,enemyTurn,135,48,removed call to gamification/CombatRules::inflictDamage
+4,CombatSystem.java,enemyTurn,136,58,removed call to gamification/CombatLog::log
+5,CombatSystem.java,finishCombat,142,11,negated conditional
+6,CombatSystem.java,finishCombat,145,31,removed call to gamification/entity/Player::gainExperience
+7,CombatSystem.java,finishCombat,147,47,removed call to gamification/CombatLog::log
+8,CombatSystem.java,finishCombat,150,71,removed call to gamification/CombatLog::log
+9,CombatSystem.java,finishCombat,152,77,removed call to gamification/CombatLog::printLog
+10,CombatSystem.java,getCombatLog,156,5,replaced return value with null for gamification/CombatSystem::getCombatLog
+11,CombatSystem.java,performAttack,77,18,removed call to gamification/CombatRules::inflictDamage
+12,CombatSystem.java,performAttack,78,28,removed call to gamification/CombatLog::log
+13,CombatSystem.java,performDefend,126,14,removed call to gamification/CombatLog::log
+14,CombatSystem.java,performSpell,84,11,negated conditional
+15,CombatSystem.java,performSpell,86,24,negated conditional
+16,CombatSystem.java,performSpell,90,47,negated conditional
+17,CombatSystem.java,performSpell,98,78,negated conditional
+18,CombatSystem.java,performSpell,100,93,negated conditional
+19,CombatSystem.java,performSpell,106,172,negated conditional
+20,CombatSystem.java,performSpell,113,228,negated conditional
+21,CombatSystem.java,performSpell,113,232,negated conditional
+22,CombatSystem.java,performSpell,114,241,removed call to gamification/CombatLog::log
+23,CombatSystem.java,performSpell,115,249,removed call to gamification/CombatRules::heal
+24,CombatSystem.java,performSpell,117,261,removed call to gamification/CombatLog::log
+25,CombatSystem.java,performSpell,118,269,removed call to gamification/CombatRules::inflictDamage
+26,CombatSystem.java,performSpell,119,276,removed call to gamification/CombatLog::log
+27,CombatSystem.java,playerTurn,61,47,removed call to gamification/CombatSystem::performAttack
+28,CombatSystem.java,playerTurn,64,56,removed call to gamification/CombatSystem::performSpell
+29,CombatSystem.java,playerTurn,67,64,removed call to gamification/CombatSystem::performDefend
+30,CombatSystem.java,playerTurn,71,77,removed call to gamification/CombatSystem::performAttack
+31,CombatSystem.java,startCombat,35,37,negated conditional
+32,CombatSystem.java,startCombat,35,41,negated conditional
+33,CombatSystem.java,startCombat,36,46,negated conditional
+34,CombatSystem.java,startCombat,41,64,negated conditional
+35,CombatSystem.java,startCombat,29,6,removed call to gamification/CombatLog::log
+36,CombatSystem.java,startCombat,30,18,removed call to gamification/CombatLog::log
+37,CombatSystem.java,startCombat,31,23,removed call to gamification/CombatLog::printLog
+38,CombatSystem.java,startCombat,37,51,removed call to gamification/CombatSystem::playerTurn
+39,CombatSystem.java,startCombat,39,57,removed call to gamification/CombatSystem::enemyTurn
+40,CombatSystem.java,startCombat,46,89,removed call to gamification/CombatSystem::finishCombat
+41,TradingSystem.java,buy,79,15,changed conditional boundary
+42,TradingSystem.java,buy,78,8,Replaced double division with multiplication
+43,TradingSystem.java,buy,79,15,negated conditional
+44,TradingSystem.java,buy,82,27,removed call to gamification/entity/Player::addEquipment
+45,TradingSystem.java,sellArmor,51,9,Replaced double multiplication with division
+46,TradingSystem.java,sellArmor,52,22,removed call to gamification/entity/Player::setArmor
+47,TradingSystem.java,sellArmor,53,27,removed call to gamification/TradingSystem::updateReputation
+48,TradingSystem.java,sellArmor,54,31,replaced int return with 0 for gamification/TradingSystem::sellArmor
+49,TradingSystem.java,sellItem,37,20,Replaced double multiplication with division
+50,TradingSystem.java,sellItem,35,6,negated conditional
+51,TradingSystem.java,sellItem,38,27,removed call to gamification/TradingSystem::updateReputation
+52,TradingSystem.java,sellItem,39,31,replaced int return with 0 for gamification/TradingSystem::sellItem
+53,TradingSystem.java,sellWeapon,65,25,Replaced double multiplication with division
+54,TradingSystem.java,sellWeapon,65,28,Replaced double multiplication with division
+55,TradingSystem.java,sellWeapon,65,31,Replaced double division with multiplication
+56,TradingSystem.java,sellWeapon,66,44,removed call to gamification/entity/Player::setWeapon
+57,TradingSystem.java,sellWeapon,67,49,removed call to gamification/TradingSystem::updateReputation
+58,TradingSystem.java,sellWeapon,68,53,replaced int return with 0 for gamification/TradingSystem::sellWeapon
+59,TradingSystem.java,toString,122,19,replaced return value with  for gamification/TradingSystem::toString
+60,TradingSystem.java,tryToSteal,96,25,changed conditional boundary
+61,TradingSystem.java,tryToSteal,96,21,Replaced integer multiplication with division
+62,TradingSystem.java,tryToSteal,96,24,Replaced integer multiplication with division
+63,TradingSystem.java,tryToSteal,96,25,negated conditional
+64,TradingSystem.java,tryToSteal,98,35,removed call to gamification/entity/Player::addEquipment
+65,TradingSystem.java,tryToSteal,101,42,removed call to gamification/TradingSystem::updateReputation
+66,TradingSystem.java,updateReputation,113,16,changed conditional boundary
+67,TradingSystem.java,updateReputation,115,32,changed conditional boundary
+68,TradingSystem.java,updateReputation,112,6,Replaced double division with multiplication
+69,TradingSystem.java,updateReputation,113,13,Replaced double addition with subtraction
+70,TradingSystem.java,updateReputation,115,29,Replaced double addition with subtraction
+71,TradingSystem.java,updateReputation,117,46,Replaced double addition with subtraction
+72,TradingSystem.java,updateReputation,113,16,negated conditional
+73,TradingSystem.java,updateReputation,115,32,negated conditional
+74,Player.java,<init>,30,19,Replaced integer multiplication with division
+75,Player.java,<init>,30,24,Replaced integer multiplication with division
+76,Player.java,<init>,34,49,Replaced integer multiplication with division
+77,Player.java,<init>,34,51,Replaced integer addition with subtraction
+78,Player.java,<init>,35,59,removed call to gamification/entity/Player::setEquipment
+79,Player.java,armorClassDexBonus,104,7,Replaced integer division with multiplication
+80,Player.java,armorClassDexBonus,106,20,replaced int return with 0 for gamification/entity/Player::armorClassDexBonus
+81,Player.java,attack,60,6,replaced int return with 0 for gamification/entity/Player::attack
+82,Player.java,gainExperience,83,7,Replaced integer addition with subtraction
+83,Player.java,getArmor,52,5,replaced return value with null for gamification/entity/Player::getArmor
+84,Player.java,getArmorClass,45,8,Replaced integer addition with subtraction
+85,Player.java,getArmorClass,45,9,replaced int return with 0 for gamification/entity/Player::getArmorClass
+86,Player.java,getEquipment,64,5,replaced return value with null for gamification/entity/Player::getEquipment
+87,Player.java,getExperience,85,5,replaced int return with 0 for gamification/entity/Player::getExperience
+88,Player.java,getHealthPoints,50,5,replaced return value with null for gamification/entity/Player::getHealthPoints
+89,Player.java,getLevel,76,5,replaced int return with 0 for gamification/entity/Player::getLevel
+90,Player.java,getName,40,5,replaced return value with  for gamification/entity/Player::getName
+91,Player.java,getStat,48,7,replaced int return with 0 for gamification/entity/Player::getStat
+92,Player.java,getWeapon,56,5,replaced return value with null for gamification/entity/Player::getWeapon
+93,Player.java,isAlive,66,6,changed conditional boundary
+94,Player.java,isAlive,66,6,negated conditional
+95,Player.java,isAlive,66,14,replaced boolean return with true for gamification/entity/Player::isAlive
+96,Player.java,levelUp,79,7,Replaced integer addition with subtraction
+97,Player.java,levelUp,80,14,removed call to gamification/data/StatBlock::increase
+98,Player.java,removeItem,69,7,negated conditional
+99,Player.java,setEquipment,92,17,changed conditional boundary
+100,Player.java,setEquipment,93,31,changed conditional boundary
+101,Player.java,setEquipment,93,29,Replaced integer addition with subtraction
+102,Player.java,setEquipment,97,54,Replaced integer addition with subtraction
+103,Player.java,setEquipment,92,17,negated conditional
+104,Player.java,setEquipment,92,20,negated conditional
+105,Player.java,setEquipment,93,31,negated conditional
+106,Player.java,toString,110,42,replaced return value with  for gamification/entity/Player::toString
+107,CombatRules.java,calculateInitiative,32,8,replaced int return with 0 for gamification/CombatRules::calculateInitiative
+108,CombatRules.java,calculateInitiative,24,34,Replaced integer subtraction with addition
+109,CombatRules.java,calculateInitiative,24,35,replaced int return with 0 for gamification/CombatRules::calculateInitiative
+110,CombatRules.java,computeAttackScore,84,19,Replaced integer addition with subtraction
+111,CombatRules.java,computeAttackScore,85,29,Replaced integer addition with subtraction
+112,CombatRules.java,computeAttackScore,85,30,Replaced integer addition with subtraction
+113,CombatRules.java,computeAttackScore,86,40,Replaced integer addition with subtraction
+114,CombatRules.java,computeAttackScore,86,41,Replaced integer addition with subtraction
+115,CombatRules.java,computeAttackScore,88,47,replaced int return with 0 for gamification/CombatRules::computeAttackScore
+116,CombatRules.java,computeAttackScore,73,9,Replaced integer division with multiplication
+117,CombatRules.java,computeAttackScore,73,10,Replaced integer addition with subtraction
+118,CombatRules.java,computeAttackScore,73,11,replaced int return with 0 for gamification/CombatRules::computeAttackScore
+119,CombatRules.java,computeDamage,58,17,Replaced integer subtraction with addition
+120,CombatRules.java,computeDamage,58,20,replaced int return with 0 for gamification/CombatRules::computeDamage
+121,CombatRules.java,computeDamage,45,17,Replaced integer subtraction with addition
+122,CombatRules.java,computeDamage,45,20,replaced int return with 0 for gamification/CombatRules::computeDamage
+123,CombatRules.java,computeDefense,107,36,Replaced integer addition with subtraction
+124,CombatRules.java,computeDefense,107,37,replaced int return with 0 for gamification/CombatRules::computeDefense
+125,CombatRules.java,computeDefense,92,5,replaced int return with 0 for gamification/CombatRules::computeDefense
+126,CombatRules.java,inflictDamage,65,6,removed negation
+127,CombatRules.java,inflictDamage,63,6,removed negation
+128,CombatRules.java,modifier,111,6,Replaced integer subtraction with addition
+129,CombatRules.java,modifier,111,8,Replaced integer division with multiplication
+130,CombatRules.java,modifier,111,10,replaced int return with 0 for gamification/CombatRules::modifier
+131,HealthPoints.java,<init>,9,8,changed conditional boundary
+132,HealthPoints.java,<init>,12,18,changed conditional boundary
+133,HealthPoints.java,<init>,15,27,changed conditional boundary
+134,HealthPoints.java,<init>,9,8,negated conditional
+135,HealthPoints.java,<init>,12,18,negated conditional
+136,HealthPoints.java,<init>,15,27,negated conditional
+137,HealthPoints.java,getCurrentHP,24,5,replaced int return with 0 for gamification/data/HealthPoints::getCurrentHP
+138,HealthPoints.java,getMaxHP,22,5,replaced int return with 0 for gamification/data/HealthPoints::getMaxHP
+139,HealthPoints.java,increasedBy,32,7,Replaced integer addition with subtraction
+140,HealthPoints.java,increasedBy,33,15,Replaced integer addition with subtraction
+141,HealthPoints.java,increasedBy,34,24,replaced return value with null for gamification/data/HealthPoints::increasedBy
+142,HealthPoints.java,updateCurrentHP,43,12,changed conditional boundary
+143,HealthPoints.java,updateCurrentHP,45,30,changed conditional boundary
+144,HealthPoints.java,updateCurrentHP,43,7,Replaced double addition with subtraction
+145,HealthPoints.java,updateCurrentHP,45,27,Replaced double addition with subtraction
+146,HealthPoints.java,updateCurrentHP,48,45,Replaced integer addition with subtraction
+147,HealthPoints.java,updateCurrentHP,43,12,negated conditional
+148,HealthPoints.java,updateCurrentHP,45,30,negated conditional
+149,HealthPoints.java,updateCurrentHP,50,52,replaced int return with 0 for gamification/data/HealthPoints::updateCurrentHP
+150,RPGGame.java,createCharacter,59,66,removed call to gamification/entity/Player::setName
+151,RPGGame.java,createCharacter,64,88,removed call to gamification/entity/Player::setName
+152,RPGGame.java,createCharacter,69,110,removed call to gamification/entity/Player::setName
+153,RPGGame.java,createCharacter,75,137,removed call to gamification/entity/Player::setName
+154,RPGGame.java,createMonsterByDifficulty,148,11,replaced return value with null for gamification/RPGGame::createMonsterByDifficulty
+155,RPGGame.java,createMonsterByDifficulty,150,18,replaced return value with null for gamification/RPGGame::createMonsterByDifficulty
+156,RPGGame.java,createMonsterByDifficulty,152,25,replaced return value with null for gamification/RPGGame::createMonsterByDifficulty
+157,RPGGame.java,main,30,10,removed call to gamification/RPGGame::start
+158,RPGGame.java,mainMenu,84,9,negated conditional
+159,RPGGame.java,mainMenu,100,75,removed call to gamification/RPGGame::startBattle
+160,RPGGame.java,mainMenu,103,83,removed call to gamification/RPGGame::viewCharacterStats
+161,RPGGame.java,mainMenu,106,91,removed call to gamification/RPGGame::viewEquipmentStore
+162,RPGGame.java,mainMenu,109,99,removed call to gamification/RPGGame::training
+163,RPGGame.java,mainMenu,121,135,removed call to java/util/Scanner::close
+164,RPGGame.java,start,39,23,removed call to gamification/RPGGame::createCharacter
+165,RPGGame.java,start,40,27,removed call to gamification/RPGGame::mainMenu
+166,RPGGame.java,startBattle,138,62,negated conditional
+167,RPGGame.java,startBattle,141,82,removed call to gamification/CombatSystem::startCombat
+168,Monster.java,<init>,25,19,Replaced integer multiplication with division
+169,Monster.java,<init>,25,24,Replaced integer multiplication with division
+170,Monster.java,getAggressivity,56,5,replaced return value with null for gamification/entity/Monster::getAggressivity
+171,Monster.java,getArmorClass,53,9,Replaced double division with multiplication
+172,Monster.java,getArmorClass,53,11,replaced int return with 0 for gamification/entity/Monster::getArmorClass
+173,Monster.java,getAttackDmg,46,9,Replaced double multiplication with division
+174,Monster.java,getAttackDmg,46,11,replaced int return with 0 for gamification/entity/Monster::getAttackDmg
+175,Monster.java,getExp,60,5,replaced int return with 0 for gamification/entity/Monster::getExp
+176,Monster.java,getHealthPoints,35,5,replaced return value with null for gamification/entity/Monster::getHealthPoints
+177,Monster.java,getName,33,5,replaced return value with  for gamification/entity/Monster::getName
+178,Monster.java,getStat,37,7,replaced int return with 0 for gamification/entity/Monster::getStat
+179,Monster.java,getStatBlock,39,5,replaced return value with null for gamification/entity/Monster::getStatBlock
+180,Monster.java,isAlive,62,6,changed conditional boundary
+181,Monster.java,isAlive,62,6,negated conditional
+182,Monster.java,isAlive,62,14,replaced boolean return with true for gamification/entity/Monster::isAlive
+183,Monster.java,toString,66,30,replaced return value with  for gamification/entity/Monster::toString
+184,Coords.java,<init>,8,9,removed call to gamification/data/Coords::setX
+185,Coords.java,<init>,9,14,removed call to gamification/data/Coords::setY
+186,Coords.java,getAngleTo,41,7,Replaced double subtraction with addition
+187,Coords.java,getAngleTo,42,15,Replaced double addition with subtraction
+188,Coords.java,getAngleTo,45,27,replaced double return with 0.0d for gamification/data/Coords::getAngleTo
+189,Coords.java,getDistanceTo,33,7,Replaced double subtraction with addition
+190,Coords.java,getDistanceTo,33,14,Replaced double subtraction with addition
+191,Coords.java,getDistanceTo,33,17,Replaced double addition with subtraction
+192,Coords.java,getDistanceTo,33,19,replaced double return with 0.0d for gamification/data/Coords::getDistanceTo
+193,Coords.java,getX,13,5,replaced double return with 0.0d for gamification/data/Coords::getX
+194,Coords.java,getY,21,5,replaced double return with 0.0d for gamification/data/Coords::getY
+195,Coords.java,move,53,7,Replaced double addition with subtraction
+196,Coords.java,move,54,15,Replaced double subtraction with addition
+197,Coords.java,move,53,8,removed call to gamification/data/Coords::setX
+198,Coords.java,move,54,16,removed call to gamification/data/Coords::setY
+199,Mage.java,cast,35,46,changed conditional boundary
+200,Mage.java,cast,42,70,changed conditional boundary
+201,Mage.java,cast,49,94,changed conditional boundary
+202,Mage.java,cast,36,53,Replaced integer subtraction with addition
+203,Mage.java,cast,43,77,Replaced integer subtraction with addition
+204,Mage.java,cast,50,101,Replaced integer subtraction with addition
+205,Mage.java,cast,35,46,negated conditional
+206,Mage.java,cast,42,70,negated conditional
+207,Mage.java,cast,49,94,negated conditional
+208,Mage.java,cast,38,63,replaced int return with 0 for gamification/entity/archetype/Mage::cast
+209,Mage.java,cast,45,87,replaced int return with 0 for gamification/entity/archetype/Mage::cast
+210,Mage.java,cast,52,111,replaced int return with 0 for gamification/entity/archetype/Mage::cast
+211,Mage.java,getResource,63,5,replaced int return with 0 for gamification/entity/archetype/Mage::getResource
+212,Warrior.java,<init>,26,31,removed call to gamification/entity/archetype/Warrior::addEquipment
+213,Warrior.java,attack,37,17,changed conditional boundary
+214,Warrior.java,attack,37,21,Replaced integer addition with subtraction
+215,Warrior.java,attack,37,17,negated conditional
+216,Warrior.java,attack,38,33,replaced int return with 0 for gamification/entity/archetype/Warrior::attack
+217,Warrior.java,getResource,52,5,replaced int return with 0 for gamification/entity/archetype/Warrior::getResource
+218,Warrior.java,useWhirlWind,42,6,changed conditional boundary
+219,Warrior.java,useWhirlWind,43,13,Replaced integer subtraction with addition
+220,Warrior.java,useWhirlWind,45,26,Replaced integer multiplication with division
+221,Warrior.java,useWhirlWind,45,29,Replaced integer addition with subtraction
+222,Warrior.java,useWhirlWind,42,6,negated conditional
+223,Warrior.java,useWhirlWind,45,30,replaced int return with 0 for gamification/entity/archetype/Warrior::useWhirlWind
+224,StatBlock.java,get,23,9,replaced int return with 0 for gamification/data/StatBlock::get
+225,StatBlock.java,increase,27,17,Replaced integer addition with subtraction
+226,StatBlock.java,increase,27,6,negated conditional
+227,StatBlock.java,validateIncrease,43,10,changed conditional boundary
+228,StatBlock.java,validateIncrease,43,10,negated conditional
+229,StatBlock.java,validateIncrease,43,18,replaced boolean return with true for gamification/data/StatBlock::validateIncrease
+230,StatBlock.java,validateInit,34,5,changed conditional boundary
+231,StatBlock.java,validateInit,36,16,changed conditional boundary
+232,StatBlock.java,validateInit,34,5,negated conditional
+233,StatBlock.java,validateInit,36,16,negated conditional
+234,StatBlock.java,validateInit,39,25,replaced int return with 0 for gamification/data/StatBlock::validateInit
+235,Armor.java,damageDurability,29,16,Replaced double multiplication with division
+236,Armor.java,damageDurability,30,27,Replaced double multiplication with division
+237,Armor.java,damageDurability,31,38,Replaced double multiplication with division
+238,Armor.java,damageDurability,29,18,removed call to gamification/item/Armor::updateDurability
+239,Armor.java,damageDurability,30,29,removed call to gamification/item/Armor::updateDurability
+240,Armor.java,damageDurability,31,40,removed call to gamification/item/Armor::updateDurability
+241,Armor.java,getArmorClass,16,5,negated conditional
+242,Armor.java,getArmorClass,16,14,replaced int return with 0 for gamification/item/Armor::getArmorClass
+243,Armor.java,getArmorClassDexBonusCap,45,34,replaced int return with 0 for gamification/item/Armor::getArmorClassDexBonusCap
+244,Armor.java,getArmorType,20,5,replaced return value with null for gamification/item/Armor::getArmorType
+245,Armor.java,toString,50,34,replaced return value with  for gamification/item/Armor::toString
+246,Rogue.java,execute,34,11,changed conditional boundary
+247,Rogue.java,execute,34,15,changed conditional boundary
+248,Rogue.java,execute,37,33,changed conditional boundary
+249,Rogue.java,execute,34,10,Replaced integer division with multiplication
+250,Rogue.java,execute,34,11,negated conditional
+251,Rogue.java,execute,34,15,negated conditional
+252,Rogue.java,execute,37,33,negated conditional
+253,Rogue.java,execute,36,26,replaced int return with 0 for gamification/entity/archetype/Rogue::execute
+254,Rogue.java,getRessource,51,5,replaced int return with 0 for gamification/entity/archetype/Rogue::getRessource
+255,Rogue.java,shadowClone,47,6,Replaced integer multiplication with division
+256,Rogue.java,shadowClone,47,7,replaced int return with 0 for gamification/entity/archetype/Rogue::shadowClone
+257,Dragon.java,canFly,45,11,changed conditional boundary
+258,Dragon.java,canFly,45,10,Replaced integer division with multiplication
+259,Dragon.java,canFly,45,11,negated conditional
+260,Dragon.java,canFly,45,19,replaced boolean return with true for gamification/entity/monster/Dragon::canFly
+261,Dragon.java,getArmorClass,37,15,Replaced double multiplication with division
+262,Dragon.java,getArmorClass,37,5,negated conditional
+263,Dragon.java,getArmorClass,37,19,replaced int return with 0 for gamification/entity/monster/Dragon::getArmorClass
+264,Dragon.java,getAttackDmg,28,15,Replaced double multiplication with division
+265,Dragon.java,getAttackDmg,28,5,negated conditional
+266,Dragon.java,getAttackDmg,28,19,replaced int return with 0 for gamification/entity/monster/Dragon::getAttackDmg
+267,Ork.java,getArmorClass,30,9,Replaced integer addition with subtraction
+268,Ork.java,getArmorClass,30,5,negated conditional
+269,Ork.java,getArmorClass,30,17,replaced int return with 0 for gamification/entity/monster/Ork::getArmorClass
+270,Ork.java,getAttackDmg,35,9,Replaced integer addition with subtraction
+271,Ork.java,getAttackDmg,35,5,negated conditional
+272,Ork.java,getAttackDmg,35,17,replaced int return with 0 for gamification/entity/monster/Ork::getAttackDmg
+273,Ork.java,ironWill,24,6,negated conditional
+274,Ork.java,ironWillIsActive,26,5,replaced boolean return with false for gamification/entity/monster/Ork::ironWillIsActive
+275,Ork.java,ironWillIsActive,26,5,replaced boolean return with true for gamification/entity/monster/Ork::ironWillIsActive
+276,Equipment.java,getDurability,19,5,negated conditional
+277,Equipment.java,getDurability,19,14,replaced int return with 0 for gamification/item/Equipment::getDurability
+278,Equipment.java,getMaxDurability,30,5,replaced int return with 0 for gamification/item/Equipment::getMaxDurability
+279,Equipment.java,getValue,23,5,replaced int return with 0 for gamification/item/Equipment::getValue
+280,Equipment.java,isBroken,15,5,changed conditional boundary
+281,Equipment.java,isBroken,15,5,negated conditional
+282,Equipment.java,isBroken,15,13,replaced boolean return with true for gamification/item/Equipment::isBroken
+283,Equipment.java,updateDurability,27,7,Replaced integer addition with subtraction
+284,Weapon.java,damageDurability,25,5,removed call to gamification/item/Weapon::updateDurability
+285,Weapon.java,getDamage,29,6,removed call to gamification/item/Weapon::damageDurability
+286,Weapon.java,getDamage,30,11,replaced int return with 0 for gamification/item/Weapon::getDamage
+287,Weapon.java,getWeaponDamage,17,5,negated conditional
+288,Weapon.java,getWeaponDamage,17,14,replaced int return with 0 for gamification/item/Weapon::getWeaponDamage
+289,Weapon.java,getWeaponType,21,5,replaced return value with null for gamification/item/Weapon::getWeaponType
+290,Weapon.java,toString,35,29,replaced return value with  for gamification/item/Weapon::toString
+291,Item.java,getValue,13,5,replaced int return with 0 for gamification/item/Item::getValue
+292,Item.java,getWeight,16,5,replaced int return with 0 for gamification/item/Item::getWeight
+293,Item.java,toString,21,19,replaced return value with  for gamification/item/Item::toString
+294,CombatLog.java,clear,36,5,removed call to java/util/List::clear
+295,CombatLog.java,getLogs,32,8,replaced return value with Collections.emptyList for gamification/CombatLog::getLogs
+296,HealthPotion.java,toString,20,19,replaced return value with  for gamification/item/consumables/HealthPotion::toString
+297,Aggressivity.java,getMultiplier,15,5,replaced double return with 0.0d for gamification/data/Aggressivity::getMultiplier

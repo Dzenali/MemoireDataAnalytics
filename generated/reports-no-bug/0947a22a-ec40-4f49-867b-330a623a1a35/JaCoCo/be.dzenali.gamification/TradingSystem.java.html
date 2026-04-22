@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TradingSystem.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-gamification</a> &gt; <a href="index.source.html" class="el_package">be.dzenali.gamification</a> &gt; <span class="el_source">TradingSystem.java</span></div><h1>TradingSystem.java</h1><pre class="source lang-java linenums">package be.dzenali.gamification;
+
+import be.dzenali.gamification.data.ArmorType;
+import be.dzenali.gamification.data.StatType;
+import be.dzenali.gamification.data.WeaponType;
+import be.dzenali.gamification.entity.Player;
+import be.dzenali.gamification.item.Armor;
+import be.dzenali.gamification.item.Item;
+import be.dzenali.gamification.item.Weapon;
+import be.dzenali.gamification.item.consumables.HealthPotion;
+
+import java.util.ArrayList;
+
+/**
+ * Class that handles trading system
+ */
+public class TradingSystem {
+    private double reputation;
+<span class="nc" id="L19">    private Weapon staff = new Weapon(10, WeaponType.LONG, 1000, 500);</span>
+<span class="nc" id="L20">    private Weapon sword = new Weapon(15, WeaponType.SHORT, 500, 350);</span>
+<span class="nc" id="L21">    private Armor armor = new Armor(13, ArmorType.LIGHT, 850, 400);</span>
+<span class="nc" id="L22">    private HealthPotion popo = new HealthPotion();</span>
+
+<span class="nc" id="L24">    public TradingSystem() {</span>
+<span class="nc" id="L25">        this.reputation = 0.1;</span>
+<span class="nc" id="L26">    }</span>
+
+    /**
+     * Sell an item from player inventory based on it's worldly reputation
+     * @param playerItems ArrayList of player's items
+     * @param item item to sell
+     * @return value of sold item
+     */
+    public int sellItem(ArrayList&lt;Item&gt; playerItems, Item item){
+<span class="nc bnc" id="L35" title="All 2 branches missed.">        if(playerItems.contains(item)){</span>
+<span class="nc" id="L36">            playerItems.remove(item);</span>
+<span class="nc" id="L37">            int sellValue = (int)(item.getValue()*reputation);</span>
+<span class="nc" id="L38">            updateReputation(sellValue);</span>
+<span class="nc" id="L39">            return sellValue ;</span>
+        } else {
+<span class="nc" id="L41">            return 0;</span>
+        }
+    }
+
+    /**
+     * Sell player's armor and return price based on reputation  and equip it with a ragged armor
+     * @param player Player
+     * @return armor value
+     */
+    public int sellArmor(Player player){
+<span class="nc" id="L51">        int value = (int)(player.getArmor().getValue()*reputation);</span>
+<span class="nc" id="L52">        player.setArmor(new Armor(0,ArmorType.LIGHT,0,0));</span>
+<span class="nc" id="L53">        updateReputation(value);</span>
+<span class="nc" id="L54">        return value;</span>
+    }
+    /**
+     * Sell player's weapon and return price based on reputation and armor's state and equip it with a weapon equivalent to its fists
+     * @param player Player
+     * @return armor value
+     */
+    public int sellWeapon(Player player){
+<span class="nc" id="L62">        int value = player.getWeapon().getValue();</span>
+<span class="nc" id="L63">        int durability = player.getWeapon().getDurability();</span>
+<span class="nc" id="L64">        int maxDurability = player.getWeapon().getMaxDurability();</span>
+<span class="nc" id="L65">        int sellValue = (int)((value*reputation*durability)/maxDurability);</span>
+<span class="nc" id="L66">        player.setWeapon(new Weapon(1,WeaponType.SHORT,5,0));</span>
+<span class="nc" id="L67">        updateReputation(sellValue);</span>
+<span class="nc" id="L68">        return sellValue;</span>
+    }
+
+    /**
+     * Buy an item (currently not checking if it is in the shop) with price based on reputation + item value
+     * @param player Player
+     * @param playerGold Amount of gold owned by the player
+     * @param item Item to buy
+     */
+    public void buy(Player player, int playerGold, Item item){
+<span class="nc" id="L78">        int itemBuyPrice = (int)(item.getValue()/reputation);</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">        if(itemBuyPrice &gt; playerGold){</span>
+<span class="nc" id="L80">            System.out.println(&quot;You don't have enough gold to buy this item&quot;);</span>
+        } else {
+<span class="nc" id="L82">            player.addEquipment(item);</span>
+<span class="nc" id="L83">            System.out.println(&quot;You buy &quot; + item);</span>
+        }
+<span class="nc" id="L85">    }</span>
+
+    /**
+     * Try to steal an item from the shop (cannot steal weapons and armors). Requires a dexterity higher than the threshold.
+     * @param player Player trying to steal
+     * @param item Item to steal
+     */
+    public void tryToSteal(Player player, Item item){
+<span class="nc" id="L93">        int dex = player.getStat(StatType.DEXTERITY);</span>
+<span class="nc" id="L94">        int itemValue = item.getValue();</span>
+<span class="nc" id="L95">        int itemWeight = item.getWeight();</span>
+<span class="nc bnc" id="L96" title="All 2 branches missed.">        if( dex*5 &gt; itemValue*itemWeight ){</span>
+<span class="nc" id="L97">            System.out.println(&quot;Great success, you stole this item.&quot;);</span>
+<span class="nc" id="L98">            player.addEquipment(item);</span>
+        }
+        else {
+<span class="nc" id="L101">            updateReputation(itemValue);</span>
+<span class="nc" id="L102">            System.out.println(&quot;Ho no, you got caught, the merchant dislikes that, you lost some rep...&quot;);</span>
+        }
+<span class="nc" id="L104">    }</span>
+
+
+    /**
+     * Update player's reputation, must stay 0.01 &lt;= reputation &lt;= 2.
+     * @param sellValue item value
+     */
+    private void updateReputation(int sellValue){
+<span class="nc" id="L112">        double modificator = (double)sellValue / 10000;</span>
+<span class="nc bnc" id="L113" title="All 2 branches missed.">        if(reputation + modificator &gt;= 2){</span>
+<span class="nc" id="L114">            reputation = 2;</span>
+<span class="nc bnc" id="L115" title="All 2 branches missed.">        } else if (reputation + modificator &lt;= 0) {</span>
+<span class="nc" id="L116">            reputation = 0.01;</span>
+<span class="nc" id="L117">        } else { reputation += modificator; }</span>
+<span class="nc" id="L118">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L122">        return String.format(&quot;Staff of malice: &quot; + staff +&quot;\n&quot; +</span>
+                &quot;Plain sword: &quot; + sword + &quot;\n&quot; +
+                &quot;Buffalo's sweater: &quot; + armor + &quot;\n&quot; +
+                &quot;Potion of healing: &quot; + popo);
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

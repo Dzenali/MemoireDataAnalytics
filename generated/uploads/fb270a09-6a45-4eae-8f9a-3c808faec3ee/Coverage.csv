@@ -1,0 +1,8 @@
+totalClassCount,coveredClassCount,totalMethodCount,coveredMethodCount,totalLineCount,coveredLineCount,totalBranchCount,coveredBranchCount,testedClass,testName
+1,0,12,0,20,0,2,0,be.dzenali.gamification.entity.Monster,MonsterTest
+1,1,12,5,20,12,2,0,be.dzenali.gamification.entity.Monster,MonsterTest
+1,1,12,6,20,13,2,0,be.dzenali.gamification.entity.Monster,MonsterTest
+1,1,12,6,20,13,2,0,be.dzenali.gamification.entity.Monster,MonsterTest
+1,1,4,4,4,4,6,3,be.dzenali.gamification.entity.monster.Dragon,DragonTest
+1,1,4,4,4,4,6,3,be.dzenali.gamification.entity.monster.Dragon,DragonTest
+1,1,4,4,4,4,6,3,be.dzenali.gamification.entity.monster.Dragon,DragonTest

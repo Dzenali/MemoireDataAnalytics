@@ -1,0 +1,22 @@
+id,name,description
+Kill1MutantAchievement,As easy as pie,Kill 1 mutant
+Kill5MutantsAchievement,A Handful,Kill 5 mutant
+Kill10MutantsAchievement,Mu-ten-ts,Kill 10 mutants
+Kill25MutantsAchievement,Trim The Fat,Kill 25 mutants
+Kill66MutantsAchievement,Cut The Bone,Kill 66 mutants
+Kill75MutantsAchievement,Trim The Fat,Kill 75 mutants
+Kill200MutantsAchievement,Cut The Bone,Kill 200 mutants
+KillAllMutantsAchievement,Evolietion,Kill all mutants
+Cover10LinesAchievement,Under cover,Cover 10 or more lines of code with your tests (coverage must be active)
+Cover33LinesAchievement,Duck and Cover,Cover 33 or more lines of code with your tests (coverage must be active)
+Cover100LinesAchievement,Covering Fire,Cover 100 or more lines of code with your tests (coverage must be active)
+Cover200LinesAchievement,Mr/Ms Worldwide,Cover 200 or more lines of code with your tests (coverage must be active)
+Cover300LinesAchievement,Looking for a needle in a haystack,Cover 300 or more lines of code with your tests (coverage must be active)
+Cover600LinesAchievement,Mr/Ms Worldwide,Cover 600 or more lines of code with your tests (coverage must be active)
+Add1TestAchievement,A test to rule them all,Write 1 tests
+Add10TestsAchievement,They see me testing,Write 10 tests
+Add20TestsAchievement,Entering the twentest,Write 20 tests
+Add60TestsAchievement,Limit Testing,Write 60 tests
+Add180TestsAchievement,No value type mismatch,Write 180 tests
+CleanDragonAchievement,Morpions et dragons,Clean the dragon from mutants infesting it
+TeamMember60TestsAchievement,All for one,Each team members must get Limit Testing achievement.

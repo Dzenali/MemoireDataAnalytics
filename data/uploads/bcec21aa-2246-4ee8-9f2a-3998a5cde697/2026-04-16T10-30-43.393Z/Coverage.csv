@@ -1,0 +1,2 @@
+totalClassCount,coveredClassCount,totalMethodCount,coveredMethodCount,totalLineCount,coveredLineCount,totalBranchCount,coveredBranchCount,testedClass,testName
+2,2,7,5,18,12,8,4,be.dzenali.gamification.item.Armor,ArmorTest

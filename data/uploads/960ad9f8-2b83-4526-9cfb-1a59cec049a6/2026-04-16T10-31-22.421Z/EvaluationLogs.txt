@@ -1,0 +1,9 @@
+2026-04-16 11:59:42.767 - Notification - Game mode selected : team
+2026-04-16 11:59:43.482 - Notification - Game mode selected : solo
+2026-04-16 12:14:04.425 - Notification - You successfully added 10 tests
+2026-04-16 12:22:56.201 - Notification - Kill your first mutant
+2026-04-16 12:22:56.215 - Notification - 5 mutants returned to primordial soup
+2026-04-16 12:22:56.231 - Notification - 10 mutants returned to primordial soup
+2026-04-16 12:31:23.598 - Debug - POST 2 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Actions.csv (404 bytes)
+- EvaluationLogs.txt (430 bytes)
+

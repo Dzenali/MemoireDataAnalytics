@@ -1,0 +1,9 @@
+2026-04-16 11:17:30.484 - Notification - Game mode selected : solo
+2026-04-16 11:17:32.431 - Notification - Game mode selected : team
+2026-04-16 11:37:29.748 - Notification - You successfully added 1 test
+2026-04-16 12:17:53.802 - Notification - You successfully added 10 tests
+2026-04-16 12:24:12.747 - Notification - You successfully covered 10 lines of code.
+2026-04-16 12:30:43.352 - Debug - POST 3 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Actions.csv (664 bytes)
+- Coverage.csv (222 bytes)
+- EvaluationLogs.txt (362 bytes)
+

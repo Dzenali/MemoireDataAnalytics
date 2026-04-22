@@ -1,0 +1,4 @@
+totalClassCount,coveredClassCount,totalMethodCount,coveredMethodCount,totalLineCount,coveredLineCount,totalBranchCount,coveredBranchCount,testedClass,testName
+1,1,8,8,14,14,0,0,be.dzenali.gamification.data.Coords,CoordsTest
+1,1,5,5,20,20,10,10,be.dzenali.gamification.data.HealthPoints,HealthPointsTest
+1,1,5,3,17,14,8,4,be.dzenali.gamification.data.StatBlock,StatBlockTest

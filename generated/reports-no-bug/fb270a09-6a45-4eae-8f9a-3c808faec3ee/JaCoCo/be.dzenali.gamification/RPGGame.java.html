@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RPGGame.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-gamification</a> &gt; <a href="index.source.html" class="el_package">be.dzenali.gamification</a> &gt; <span class="el_source">RPGGame.java</span></div><h1>RPGGame.java</h1><pre class="source lang-java linenums">package be.dzenali.gamification;
+
+import be.dzenali.gamification.data.StatType;
+import be.dzenali.gamification.entity.Monster;
+import be.dzenali.gamification.entity.Player;
+import be.dzenali.gamification.entity.archetype.Mage;
+import be.dzenali.gamification.entity.archetype.Rogue;
+import be.dzenali.gamification.entity.archetype.Warrior;
+import be.dzenali.gamification.entity.monster.Dragon;
+import be.dzenali.gamification.entity.monster.Goblin;
+import be.dzenali.gamification.entity.monster.Ork;
+
+import java.util.Scanner;
+
+/**
+ * Main entry point for the RPG game.
+ */
+public class RPGGame {
+    private Player player;
+    private Scanner scanner;
+    private TradingSystem trader;
+
+<span class="nc" id="L23">    public RPGGame() {</span>
+<span class="nc" id="L24">        this.scanner = new Scanner(System.in);</span>
+<span class="nc" id="L25">        this.trader = new TradingSystem();</span>
+<span class="nc" id="L26">    }</span>
+
+    public static void main(String[] args) {
+<span class="nc" id="L29">        RPGGame game = new RPGGame();</span>
+<span class="nc" id="L30">        game.start();</span>
+<span class="nc" id="L31">    }</span>
+
+    public void start() {
+<span class="nc" id="L34">        System.out.println(&quot;╔════════════════════════════════════════════════════════╗&quot;);</span>
+<span class="nc" id="L35">        System.out.println(&quot;║          Welcome to the Java RPG Adventure!            ║&quot;);</span>
+<span class="nc" id="L36">        System.out.println(&quot;╚════════════════════════════════════════════════════════╝&quot;);</span>
+<span class="nc" id="L37">        System.out.println();</span>
+
+<span class="nc" id="L39">        createCharacter();</span>
+<span class="nc" id="L40">        mainMenu();</span>
+<span class="nc" id="L41">    }</span>
+
+    private void createCharacter() {
+<span class="nc" id="L44">        System.out.println(&quot;Choose your character class:&quot;);</span>
+<span class="nc" id="L45">        System.out.println(&quot;1. Warrior - High HP and Armor&quot;);</span>
+<span class="nc" id="L46">        System.out.println(&quot;2. Mage - High Intelligence and Mana&quot;);</span>
+<span class="nc" id="L47">        System.out.println(&quot;3. Rogue - High Dexterity and Critical Chance&quot;);</span>
+<span class="nc" id="L48">        System.out.print(&quot;Enter choice (1-3): &quot;);</span>
+
+<span class="nc" id="L50">        int choice = scanner.nextInt();</span>
+<span class="nc" id="L51">        scanner.nextLine();</span>
+
+<span class="nc" id="L53">        System.out.print(&quot;Enter your character name: &quot;);</span>
+<span class="nc" id="L54">        String name = scanner.nextLine();</span>
+
+<span class="nc bnc" id="L56" title="All 4 branches missed.">        switch(choice) {</span>
+            case 1:
+<span class="nc" id="L58">                player = new Warrior();</span>
+<span class="nc" id="L59">                player.setName(name);</span>
+<span class="nc" id="L60">                System.out.println(&quot;You chose Warrior class!&quot;);</span>
+<span class="nc" id="L61">                break;</span>
+            case 2:
+<span class="nc" id="L63">                player = new Mage();</span>
+<span class="nc" id="L64">                player.setName(name);</span>
+<span class="nc" id="L65">                System.out.println(&quot;You chose Mage class!&quot;);</span>
+<span class="nc" id="L66">                break;</span>
+            case 3:
+<span class="nc" id="L68">                player = new Rogue();</span>
+<span class="nc" id="L69">                player.setName(name);</span>
+<span class="nc" id="L70">                System.out.println(&quot;You chose Rogue class!&quot;);</span>
+<span class="nc" id="L71">                break;</span>
+            default:
+<span class="nc" id="L73">                System.out.println(&quot;Invalid choice! Defaulting to Warrior.&quot;);</span>
+<span class="nc" id="L74">                player = new Warrior();</span>
+<span class="nc" id="L75">                player.setName(name);</span>
+        }
+
+<span class="nc" id="L78">        System.out.println(player + &quot;\n&quot;);</span>
+<span class="nc" id="L79">    }</span>
+
+    private void mainMenu() {
+<span class="nc" id="L82">        boolean running = true;</span>
+
+<span class="nc bnc" id="L84" title="All 2 branches missed.">        while (running) {</span>
+<span class="nc" id="L85">            System.out.println(&quot;════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L86">            System.out.println(&quot;           MAIN MENU&quot;);</span>
+<span class="nc" id="L87">            System.out.println(&quot;════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L88">            System.out.println(&quot;1. Start Battle&quot;);</span>
+<span class="nc" id="L89">            System.out.println(&quot;2. View Character Stats&quot;);</span>
+<span class="nc" id="L90">            System.out.println(&quot;3. View Equipment Store&quot;);</span>
+<span class="nc" id="L91">            System.out.println(&quot;4. Training (Gain Experience)&quot;);</span>
+<span class="nc" id="L92">            System.out.println(&quot;5. Exit Game&quot;);</span>
+<span class="nc" id="L93">            System.out.print(&quot;Choose option (1-5): &quot;);</span>
+
+<span class="nc" id="L95">            int choice = scanner.nextInt();</span>
+<span class="nc" id="L96">            scanner.nextLine();</span>
+
+<span class="nc bnc" id="L98" title="All 6 branches missed.">            switch(choice) {</span>
+                case 1:
+<span class="nc" id="L100">                    startBattle();</span>
+<span class="nc" id="L101">                    break;</span>
+                case 2:
+<span class="nc" id="L103">                    viewCharacterStats();</span>
+<span class="nc" id="L104">                    break;</span>
+                case 3:
+<span class="nc" id="L106">                    viewEquipmentStore();</span>
+<span class="nc" id="L107">                    break;</span>
+                case 4:
+<span class="nc" id="L109">                    training();</span>
+<span class="nc" id="L110">                    break;</span>
+                case 5:
+<span class="nc" id="L112">                    running = false;</span>
+<span class="nc" id="L113">                    System.out.println(&quot;Thanks for playing! Goodbye!&quot;);</span>
+<span class="nc" id="L114">                    break;</span>
+                default:
+<span class="nc" id="L116">                    System.out.println(&quot;Invalid choice!&quot;);</span>
+            }
+<span class="nc" id="L118">            System.out.println();</span>
+<span class="nc" id="L119">        }</span>
+
+<span class="nc" id="L121">        scanner.close();</span>
+<span class="nc" id="L122">    }</span>
+
+    private void startBattle() {
+<span class="nc" id="L125">        System.out.println(&quot;\n════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L126">        System.out.println(&quot;         ENCOUNTER A MONSTER&quot;);</span>
+<span class="nc" id="L127">        System.out.println(&quot;════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L128">        System.out.println(&quot;Choose difficulty:&quot;);</span>
+<span class="nc" id="L129">        System.out.println(&quot;1. Easy - Goblin&quot;);</span>
+<span class="nc" id="L130">        System.out.println(&quot;2. Medium - Orc&quot;);</span>
+<span class="nc" id="L131">        System.out.println(&quot;3. Hard - Dragon&quot;);</span>
+<span class="nc" id="L132">        System.out.print(&quot;Choose difficulty (1-3): &quot;);</span>
+
+<span class="nc" id="L134">        int difficulty = scanner.nextInt();</span>
+<span class="nc" id="L135">        scanner.nextLine();</span>
+
+<span class="nc" id="L137">        Monster enemy = createMonsterByDifficulty(difficulty);</span>
+<span class="nc bnc" id="L138" title="All 2 branches missed.">        if (enemy != null) {</span>
+<span class="nc" id="L139">            System.out.println(&quot;You encounter a &quot; + enemy.getName() + &quot;!&quot;);</span>
+<span class="nc" id="L140">            CombatSystem combat = new CombatSystem(player, enemy);</span>
+<span class="nc" id="L141">            combat.startCombat();</span>
+        }
+<span class="nc" id="L143">    }</span>
+
+    private Monster createMonsterByDifficulty(int difficulty) {
+<span class="nc bnc" id="L146" title="All 3 branches missed.">        switch(difficulty) {</span>
+            case 2:
+<span class="nc" id="L148">                return new Ork();</span>
+            case 3:
+<span class="nc" id="L150">                return new Dragon();</span>
+            default:
+<span class="nc" id="L152">                return new Goblin();</span>
+        }
+    }
+
+    private void viewCharacterStats() {
+<span class="nc" id="L157">        System.out.println(&quot;\n════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L158">        System.out.println(&quot;       CHARACTER STATISTICS&quot;);</span>
+<span class="nc" id="L159">        System.out.println(&quot;════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L160">        System.out.println(&quot;Name: &quot; + player.getName());</span>
+<span class="nc" id="L161">        System.out.println(&quot;Level: &quot; + player.getLevel());</span>
+<span class="nc" id="L162">        System.out.println(&quot;Experience: &quot; + player.getExperience() + &quot; / &quot; + (100 * player.getLevel()));</span>
+<span class="nc" id="L163">        System.out.println();</span>
+<span class="nc" id="L164">        System.out.println(&quot;Health: &quot; + player.getHealthPoints().getCurrentHP() + &quot; / &quot; + player.getHealthPoints().getMaxHP());</span>
+<span class="nc" id="L165">        System.out.println(&quot;Mana/rage/energy: &quot; + player.getResource() );</span>
+<span class="nc" id="L166">        System.out.println();</span>
+<span class="nc" id="L167">        System.out.println(&quot;Stats:&quot;);</span>
+<span class="nc" id="L168">        System.out.println(&quot;  Strength: &quot; + player.getStat(StatType.STRENGTH));</span>
+<span class="nc" id="L169">        System.out.println(&quot;  Intelligence: &quot; + player.getStat(StatType.INTELLIGENCE));</span>
+<span class="nc" id="L170">        System.out.println(&quot;  Dexterity: &quot; + player.getStat(StatType.DEXTERITY));</span>
+<span class="nc" id="L171">        System.out.println(&quot;  Armor: &quot; + player.getArmorClass());</span>
+<span class="nc" id="L172">        System.out.println();</span>
+<span class="nc" id="L173">    }</span>
+
+    private void viewEquipmentStore() {
+<span class="nc" id="L176">        System.out.println(&quot;\n════════════════════════════════════════&quot;);</span>
+        //ItemStore.listItems();
+<span class="nc" id="L178">        System.out.println(trader.toString());</span>
+<span class="nc" id="L179">        System.out.println(&quot;════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L180">    }</span>
+
+    private void training() {
+<span class="nc" id="L183">        System.out.println(&quot;\n════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L184">        System.out.println(&quot;       TRAINING GROUND&quot;);</span>
+<span class="nc" id="L185">        System.out.println(&quot;════════════════════════════════════════&quot;);</span>
+<span class="nc" id="L186">        System.out.println(&quot;No training, only fighting.&quot;);</span>
+<span class="nc" id="L187">    }</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

@@ -1,0 +1,11 @@
+2026-04-16 11:41:48.208 - Notification - You successfully covered 10 lines of code.
+2026-04-16 11:47:13.0 - Notification - You successfully added 10 tests
+2026-04-16 12:05:51.738 - Notification - You successfully added 20 tests
+2026-04-16 12:25:16.659 - Notification - Kill your first mutant
+2026-04-16 12:25:16.664 - Notification - 5 mutants returned to primordial soup
+2026-04-16 12:25:16.669 - Notification - 10 mutants returned to primordial soup
+2026-04-16 12:25:16.678 - Notification - 25 mutants returned to primordial soup
+2026-04-16 12:30:11.99 - Debug - POST 3 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Actions.csv (784 bytes)
+- Coverage.csv (308 bytes)
+- EvaluationLogs.txt (531 bytes)
+

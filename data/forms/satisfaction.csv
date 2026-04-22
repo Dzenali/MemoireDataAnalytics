@@ -1,0 +1,100 @@
+Identifiant,Satisfaction Horodateur,"Après avoir utilisé le plugin,  j'évalue mes compétences en écriture de test","Après avoir utilisé le plugin, j'évalue ma motivation à écrire des tests",Système préféré,"Clarté des règles du jeu (achievements, leaderboard)",Design et intégration dans IntelliJ,"Selon vous, quel mode est le plus fun ?",Le système de points et de progression vous a-t-il semblé juste ?,"J'ai été tenté d'écrire plus de tests pour augmenter mes points, même si les tests ne sont pas spécialement pertinents","Seriez-vous intéressé·e par l'utilisation d'outils gamifiés durant certains cours ?
+(Vérification et Validation, Génie Logiciel, ..)","Quel mode j'ai envie d'utiliser dans un cours où je peux être confronté à du test logiciel ? 
+(Vérification et Validation, Génie Logiciel, ..)",Donner 3 points positifs du plugin,Donner 3 points négatifs du plugin,Donner 3 améliorations à apporter au plugin
+119,17/04/2025 10:12:50,2,2,Achievements,2,4,5,Oui,1,5,5,C’est encourageant,Il n’y a pas de consignes definies,Mettre plus de consignes 
+50,17/04/2025 10:12:56,2,3,Achievements,4,4,5,Oui,2,5,5,"Facile, visuel, prend peu de place sur l'écran ","Facilement mis en erreur, possible de tricher, distrayant ","Notifications plus visibles, aide pour écrire les tests, plus d'explications sur les achievements"
+54,17/04/2025 10:13:01,1,1,Achievements,2,5,3,Oui,4,5,3,"- Permet d’étudier en s’amusant 
+- facile à utiliser 
+- user friendly",Je n’en vois aucun ,Il est parfait pour moi
+107,17/04/2025 10:13:04,1,3,Achievements,2,3,4,Oui,3,5,5,"Simple , facile d’utilisation , pratique pour l’apprentissage ",Je ne peux rien dire ,Pas vraiment 
+35,17/04/2025 10:13:56,2,3,Achievements,3,3,3,Oui,2,3,2,"Simple
+Facile à utilisé 
+Intuitif ",Pas vraiment de points négatif détecté ,"Amélioration de l interface, Ajout de fonctionnalités personalisables ,"
+48,17/04/2025 10:13:57,2,3,Achievements,3,5,5,Oui,4,4,4,"Facile d'utilisation, clair, interactif","Failles facilement exploitable, peut être un peu distrayant, le mode leaderboard peut etre plus expliqué.","Clarification du mode leaderboard, fixer les exploits (peut ""créer"" des points facilement), rendre le module disponible dans d'autres langages "
+83,17/04/2025 10:13:59,2,3,Achievements,4,4,4,Oui,3,2,5,"Belle interface, simple d'utilisation, les notifications ","Prend beaucoup de taille sur l'ide quand ouvert,la connexion qui doit être souvent active, possibilité de triche","Enlever les possibilités de triche, ajouter un peu de couleur, simplifiée l'installation du plugin en l'intégrant au market inteligi"
+70,17/04/2025 10:14:02,3,3,Leaderboard,5,5,2,Non,2,1,2,"Design, facilité d'utilisation, idée","Mauvais systeme de validation, manque de bonne competitivité , manque de motivation poir utiliser",retirer la tricherie
+68,17/04/2025 10:14:22,3,4,Achievements,5,5,4,Non,1,5,4,"Ludique 
+Ambitieux
+Motivant","Permet le spam de test(triche) 
+Point trop régulier
+Peu de diversité au niveau de point","Ajouter un mode anti triche
+Ajouter une hiérarchie de point plus marquant 
+Ajouter des effet lorsqu’on gagne de gros point"
+52,17/04/2025 10:14:22,1,1,Aucun des 2,4,5,2,Non,1,1,3,"on veut écrire des tests, rigolo car il y a des bugs, bien implémenté dans intelliJ","il  y a des bugs, pas vrm utile personnelement, te déconcentre un peu lors du coding","régler les bugs, impossible d'envoyer les données lorsque l'on a 0 points, un peu difficile d'installer le plug-in"
+40,17/04/2025 10:14:30,2,4,Leaderboard,4,2,1,Non,5,4,2,"Amusant, cool,  design ","Score,  installation, mise en place ","Score pas représentatif, ce serait mieux d'avoir une extension directement, "
+96,17/04/2025 10:14:31,2,1,Leaderboard,5,4,1,Non,2,5,1,"Clair, amusant, interface satisfaisante","Score manipulable, mauvaise évaluation des tests (gain de points pour un test non complet), difficultés à installer","Score, évaluation des tests, le mettre directement disponible sur intellij, rétro-compatibilité avec les anciennes versions de intellij (build<243)"
+42,17/04/2025 10:14:45,2,1,Leaderboard,2,5,1,Non,5,5,1,Bien implémenté / amusant / sympa et cool ,Score mal foutu / difficulté d’implémenter le plugin ( zip mais pas le zip ) / plus d’indice pour aider ,Le score car possibilité de dupliquer son score / mettre plus d’indice car on peut être bloquer ou mode apprentissage ?? / améliorer le déploiement du plugin car pas mal de soucis avec le zip 
+31,17/04/2025 10:14:55,3,4,Leaderboard,5,5,5,Non,2,4,2,"Interactif, compétitif,  divertissant","peut-être trop divertissant, notifications en continu, ",Peut-être évaluer la qualité des tests et avoir des points en fonction de cette qualité et non la quantité de tester exécuter
+47,17/04/2025 10:14:56,3,4,Achievements,5,5,2,Non,2,5,5,"Pratique, pas compliqué a installé, motivant ","Des gens trichants en réécrivant plusieurs fois le même tests, compte les tests parfois trop simples, j’ai dû me reconnecter qql fois en plus","D’empêcher la triche, et rien de plus "
+36,17/04/2025 10:15:08,4,4,Achievements,4,4,4,Non,1,4,5,"Fun, stimulant, bien intégré","Buggé (achievements qui ne se valident pas injustement, développeur qui a beaucoup de trop de points dans le leaderboard d'un instant à l'autre), durée de vie douteuse (fin des achievements ou collègue trop chaud sur le leaderboard / qui triche), système de connexion constante un peu contraignant (si on est déconnecté sans s'en rendre compte, rien n'est enregistré), certains achievements trop faciles à ""craquer"" en faisant tourner les mêmes suites de test plein de fois ","Améliorer le système de connexion (une seule connexion à l'ouverture par exemple pour récupérer les dernières données, puis hors ligne)
+Résolution des bugs
+Conception des achievements pour ne pas pouvoir les craquer trop facilement
+Reset récurrent des leaderboards ou autre système permettant à tout le monde de viser la première place"
+104,17/04/2025 10:15:19,4,4,Achievements,5,5,4,Non,2,5,5,"1) Progression visuelle
+2) Poussé à travailler via le challenge contre les autres
+3) Bien implémenté","1) Possibilité de triche
+2) Système de points non sécurisé
+3) Obtention des points trop simple","1) Limiter l'obtention de points via les asserts
+2) Limiter l'obtention de points pour un même test en leaderboard
+3) Empêcher l'obtention de points pour des tests non utiles"
+28,17/04/2025 10:15:34,2,4,Leaderboard,2,4,3,Non,5,1,4,"design, facilité d'utilisation, mes 40000 points","la façon de compter les points, les achievements sont trop larges, il n'incite pas à écrire de bon test.","ajoutez une vérification des tests validés pour pas que le plugin compte le même test copié collé, pouvoir comparer ces trophées avec les autres, "
+8,17/04/2025 10:15:53,4,4,Leaderboard,5,4,1,Non,2,2,3,"Clair
+Facile à prendre en main
+Ludique","Trop d'achèvements
+J'ai eu le sentiment de ne pas progresser dans les achievements quand je corrigeais des bugs, alors que je progressais plus rapidement quand je faisais des tests ""débiles""
+Leaderboard frustrant quand les gens trichent ","Moins d'achèvements (de 1 à 3 par catégories)
+Récompenser les corrections de bugs
+Empêcher les gens de tricher (en spammant les copier coller,...)"
+100,17/04/2025 10:15:59,1,4,Leaderboard,5,5,2,Oui,5,4,4,"Facile d'utilisation, Amusant, Motivant","On peut executer plusieurs fois le même test pour augmenter son score, la metriques de score pour le leaderboard n'est pas très représentative","Pour chacun des types de tests évalués, Donner une petite explication de comment les implémenter en JUnit"
+3,17/04/2025 10:16:06,2,4,Achievements,4,5,5,Non,2,3,5,"Intuitif
+Seamless
+Un peu addictif (dans le bon sens)","Pas claire sur quoi compte
+Facile a exploiter (ducoup leaderboard un peu inutile)
+Devoir clique sur l'icon pour voir les résultats détourne l'attention
+","Un always on display discret
+Un traqueur de progression entre session de coding
+Un meilleur check de l'utilité des tests génerés"
+9,17/04/2025 10:16:07,4,4,Leaderboard,4,5,2,Oui,2,2,3,"Belle intégration, chouette concept, jolie UI","Le leaderboard ne s’est pas affiché pendant tout un moment, difficulté à trouver le bon zip, augmenter les points juste en lançant les tests c’est trop facile","Bouton pour actualiser le leaderboard, améliorer la visibilité de la release"
+26,17/04/2025 10:16:12,2,4,Achievements,4,4,5,Oui,4,4,5,"Ludique
+Satisfaisant 
+Encourageant ","Peut faire perdre de vue l’objectif principal de tester le logiciel 
+Énervant si on bloque sur un archivement en particulier par exemple 
+Je ne suis pas spécialiste en test unitaire mais il peut peut-être manquer de catégorie et faire croire à un utilisateur d’avoir tester l’ensemble de son code alors qu’il manque peut être l’un ou l’autre tests à effectuer ",Je n’ai pas d’idée sur le moment 
+71,17/04/2025 10:16:14,3,4,Achievements,4,4,5,Non,3,5,4,"Assez simple d'utilisation,
+Plutôt intuitive
+Plutôt fun","Tout ce qui est ajouts des points en run des t'est est un peu ennuyeux car tu peux run les t'est juste pour gagner des points
+Leaderboard n'est pas utilisable si plusieurs utilisateurs (reload de la page à chaque fois donc pour voir son score c'est compliqué)
+J'imagine que pour le mode achievement, c'était une implémentation des requirements en dur, pas applicable dans un nouveau projet ?",Voir points négatifs
+15,17/04/2025 10:16:16,1,2,Leaderboard,3,5,1,Non,5,2,5,"Facilité d'utilisation, Design agréable, Nous motive à écrire des tests","Le comptage des points peut être ""manipulé"", Je me concentre plus au plugin qu'à l'écriture des tests, Les achievements ne sont pas toujours clairs "," Mettre plus d'explications pour les achievements, Limiter la ""manipulation"" des points,  "
+1,17/04/2025 10:16:17,2,4,Achievements,5,5,5,Oui,5,5,5,stimulant et motivant , incitation à faire des tests pas tres utiles parfois ,Vérifier la pertinence des tests 
+92,17/04/2025 10:16:17,1,4,Achievements,2,5,5,Oui,2,5,5,"Visualisation de la progression, Temps de prise en charge court, Plus amusant à utiliser","Je ne comprends pas toujours comment les points sont attribués, Ni les points évalués, ","Critères plus descriptifs, Liens éventuels vers morceaux de théorie/explication/exemples (ex dans la description de coverage on trouve un lien vers un morceau d’explication de la matière,…)"
+73,17/04/2025 10:16:24,2,3,Achievements,3,4,3,Non,3,4,4,"Intéressant, competitive et enthusiastic ",Dans l'ensemble c'est correct rien a rajouté ,Un peu plus de clarté  sur le leaderboard 
+23,17/04/2025 10:16:29,4,3,Achievements,3,3,5,Non,4,5,5,"Donne un but (récompense) à la création de test unitaire qui a la base est pas forcément quelques chose de fun.
+Bonne division des achievenements.
+Le leardbord en ""direct"" donne envie de se surpasser pour augmenter son score","Calcul des points à retravailler, j'ai reçu des points en relancer 2 fois le même test sans y apporter de changement.
+Manque de clarté sur l'attribution des points du leaderbord ","Vérifier le calcul des points du leaderbord me semble que je gagnais des points en boucle sans aucune raison.
+Je sais pas trop si c'est possible avec inttelij mais changer le système, les notif spam trop et le plugin est soit trop petit soit prend trop de place suivant ou on le met sur l'écran "
+user-03,17/04/2025 10:16:35,3,4,Achievements,5,4,2,Non,4,5,5,"fun, drole à utiliser entre potes, donne de l'intérêt au testing","triche possible, certainement pas une bonne idée en entreprise ou dans une équipe de dév","Empecher la triche
+"
+56,17/04/2025 10:16:59,3,4,Leaderboard,4,5,2,Oui,4,3,2,"Le Design, la facilité d'utilisation,   le fun","documentation sur l'utilisation,  ","La sécurité(authentification), ajouter une explication du system de score, ajout d'un mode duel pour le fun"
+32,17/04/2025 10:17:02,1,2,Achievements,4,3,4,Non,1,4,4,"facile a utiliser
+amusant
+on voit notre progression","possibilité de tricher
+je n'avais pas certains achievement 
+système des points trop simple","retirer la tricherie
+faire fonctionner tous les achievement
+modifier le système d'obtention des points"
+81,17/04/2025 10:17:11,2,3,Achievements,3,5,5,Oui,5,5,5,"Bien intégré dans Intelliji
+J'aime vraiment bien les achievements, les différents niveaux de trophées
+Facile à installer","C'est frustrant d'être battu dans le leader board
+",Pouvoir voir les trophées des autres
+91,17/04/2025 10:17:36,1,3,Achievements,5,4,5,Non,5,5,5,"- Simple d'utilisation
+- Bonne gamification
+- C'est cool","- Leaderboard trop compétitif donc on se retrouve à faire des tests baclés pour gagner des points 
+- Achivement pas assez interractifs (Peut-etre créer une animation pour créer de la satisfaction chez le joeur)
+- Systeme de point trop flou ","- Améliorer la visibilité du leaderboard en fixant notre place en haut de celui si avec notre position 
+- Ajouté un système de récompense pour motivé encore plus les étudiants 
+- Augmenté la variété de test disponible"
+30,17/04/2025 10:18:54,3,2,Leaderboard,3,4,2,Oui,2,1,3,L’intégration dans l’IDE / le leaderboard,Clarté / problème de scroll dans achievement /  difficulté d’installation du plugin,"Améliorer l’explication des critères / résoudre le bug d’achievement / ne pas perdre toutes les données lorsque ça se déconnecte 
+"
+72,17/04/2025 10:20:11,2,3,Achievements,4,4,5,Oui,1,2,2,"Interface sympa, facile à utiliser, achievementd et retours bien fait.","Trop de système de récompenses, pas toujours interactif, version beta.","Amélioration de boards, système équilibré de récompenses "

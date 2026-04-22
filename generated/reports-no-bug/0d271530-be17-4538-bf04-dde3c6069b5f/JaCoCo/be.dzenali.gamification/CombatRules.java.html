@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CombatRules.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-gamification</a> &gt; <a href="index.source.html" class="el_package">be.dzenali.gamification</a> &gt; <span class="el_source">CombatRules.java</span></div><h1>CombatRules.java</h1><pre class="source lang-java linenums">package be.dzenali.gamification;
+
+import be.dzenali.gamification.data.StatType;
+import be.dzenali.gamification.entity.Monster;
+import be.dzenali.gamification.entity.Player;
+
+
+/**
+ * Class that handles the combat rules of a fight
+ */
+<span class="nc" id="L11">public class CombatRules {</span>
+
+    /**
+     * compute initiative of a player based on is dex and armor type
+     * @param player the player
+     * @return initiative
+     */
+    public int calculateInitiative(Player player) {
+<span class="nc" id="L19">        int penalty = 0;</span>
+<span class="nc bnc" id="L20" title="All 3 branches missed.">        switch (player.getArmor().getArmorType()){</span>
+<span class="nc" id="L21">            case MEDIUM -&gt; penalty = 1;</span>
+<span class="nc" id="L22">            case HEAVY -&gt; penalty = 2;</span>
+        }
+<span class="nc" id="L24">        return modifier(player.getStat(StatType.DEXTERITY)) - penalty ;</span>
+    }
+
+    /**
+     * @param monster the monster
+     * @return initiative
+     */
+    public int calculateInitiative(Monster monster) {
+<span class="nc" id="L32">        return modifier(monster.getStat(StatType.DEXTERITY));</span>
+    }
+
+    /**
+     * compute damage applied to monster
+     * @param attacker Player
+     * @param defender Monster
+     * @return damage to monster from player
+     */
+    public int computeDamage(Player attacker, Monster defender) {
+<span class="nc" id="L42">        int attack = computeAttackScore(attacker);</span>
+<span class="nc" id="L43">        int defense = computeDefense(defender);</span>
+
+<span class="nc" id="L45">        return Math.max(attack - defense, 0);</span>
+    }
+
+    /**
+     * compute damage applied to player
+     * @param attacker Monster
+     * @param defender Player
+     * @return damage to monster from player
+     */
+    public int computeDamage(Monster attacker, Player defender) {
+<span class="nc" id="L55">        int attack = computeAttackScore(attacker);</span>
+<span class="nc" id="L56">        int defense = computeDefense(defender);</span>
+
+<span class="nc" id="L58">        return Math.max(attack - defense, 0);</span>
+    }
+
+<span class="nc" id="L61">    public void heal(Player player, int heal){ player.getHealthPoints().updateCurrentHP(heal); }</span>
+
+<span class="nc" id="L63">    public void inflictDamage(Player player, int dmg){ player.getHealthPoints().updateCurrentHP(-dmg);}</span>
+
+<span class="nc" id="L65">    public void inflictDamage(Monster monster, int dmg){ monster.getHealthPoints().updateCurrentHP(-dmg);}</span>
+
+    /**
+     * Computer player attack damage based on weapon + strength
+     * @param attacker
+     * @return damage of player
+     */
+    private int computeAttackScore(Player attacker) {
+<span class="nc" id="L73">        return attacker.attack() + attacker.getStat(StatType.STRENGTH) / 4;</span>
+    }
+
+    /**
+     * Computer monster attack damage based on basic damage and current monster aggressivity
+     * @param attacker Monster
+     * @return damage of monster
+     */
+    private int computeAttackScore(Monster attacker) {
+<span class="nc" id="L82">        int dmg = 0;</span>
+<span class="nc bnc" id="L83" title="All 4 branches missed.">        switch (attacker.getAggressivity()){</span>
+<span class="nc" id="L84">            case LOW -&gt; dmg += attacker.getAttackDmg();</span>
+<span class="nc" id="L85">            case MEDIUM -&gt; dmg += (attacker.getAttackDmg() + 5);</span>
+<span class="nc" id="L86">            case HIGH -&gt; dmg += (attacker.getAttackDmg() + 10);</span>
+        }
+<span class="nc" id="L88">        return dmg;</span>
+    }
+
+    private int computeDefense(Player defender) {
+<span class="nc" id="L92">        return defender.getArmorClass();</span>
+    }
+
+    /**
+     * Compute monster def based on Armor class and Aggressivity
+     * @param defender  Monster
+     * @return armor value
+     */
+    private int computeDefense(Monster defender) {
+<span class="nc" id="L101">        int bonus = 0;</span>
+<span class="nc bnc" id="L102" title="All 4 branches missed.">        switch (defender.getAggressivity()){</span>
+<span class="nc" id="L103">            case LOW -&gt; bonus = 5;</span>
+<span class="nc" id="L104">            case MEDIUM -&gt; bonus = 0;</span>
+<span class="nc" id="L105">            case HIGH -&gt; bonus = -5;</span>
+        }
+<span class="nc" id="L107">        return defender.getArmorClass() + bonus;</span>
+    }
+
+    private int modifier(int stat) {
+<span class="nc" id="L111">        return Math.max(0,(stat - 5) / 2);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
