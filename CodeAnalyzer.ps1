@@ -44,11 +44,9 @@ Pop-Location
 # Get uploads
 $Uploads = Get-ChildItem -Path $UploadsDirectory -Directory | ForEach-Object {
     [PSCustomObject]@{
-        UserId = $_.Name  # "0d271530-be17-4538-bf04-dde3c6069b5f"
+        UserId = $_.Name
     }
 }
-Write-Output "Found $($Uploads.Count) uploads:"
-$Uploads | ForEach-Object { Write-Output "  - $($_.UserId)" }
 
 $Jobs = @()
 

@@ -4,33 +4,33 @@ public class Coords {
     private double x;
     private double y;
 
-<span class="nc" id="L7">    public Coords(double x, double y) {</span>
-<span class="nc" id="L8">        setX(x);</span>
-<span class="nc" id="L9">        setY(y);</span>
-<span class="nc" id="L10">    }</span>
+<span class="fc" id="L7">    public Coords(double x, double y) {</span>
+<span class="fc" id="L8">        setX(x);</span>
+<span class="fc" id="L9">        setY(y);</span>
+<span class="fc" id="L10">    }</span>
 
     public double getX() {
-<span class="nc" id="L13">        return x;</span>
+<span class="fc" id="L13">        return x;</span>
     }
 
     public void setX(double x) {
-<span class="nc" id="L17">        this.x = x;</span>
-<span class="nc" id="L18">    }</span>
+<span class="fc" id="L17">        this.x = x;</span>
+<span class="fc" id="L18">    }</span>
 
     public double getY() {
-<span class="nc" id="L21">        return y;</span>
+<span class="fc" id="L21">        return y;</span>
     }
 
     public void setY(double y) {
-<span class="nc" id="L25">        this.y = y;</span>
-<span class="nc" id="L26">    }</span>
+<span class="fc" id="L25">        this.y = y;</span>
+<span class="fc" id="L26">    }</span>
 
     /**
      * @param other Other point
      * @return Distance from {@code this} to {@code other}
      */
     public double getDistanceTo(Coords other) {
-<span class="nc" id="L33">        return Math.sqrt(Math.pow(other.getX() - this.getX(), 2) + Math.pow(other.getY() - this.getY(), 2));</span>
+<span class="fc" id="L33">        return Math.sqrt(Math.pow(other.getX() - this.getX(), 2) + Math.pow(other.getY() - this.getY(), 2));</span>
     }
 
     /**
@@ -38,11 +38,11 @@ public class Coords {
      * @return Angle in degrees from {@code this} to {@code other}
      */
     public double getAngleTo(Coords other) {
-<span class="nc" id="L41">        double deltaX = other.getX() - getX();</span>
-<span class="nc" id="L42">        double deltaY = other.getY() + getY();</span>
+<span class="fc" id="L41">        double deltaX = other.getX() - getX();</span>
+<span class="fc" id="L42">        double deltaY = other.getY() + getY();</span>
 
-<span class="nc" id="L44">        double angleRad = Math.atan2(deltaY, deltaX);</span>
-<span class="nc" id="L45">        return Math.toDegrees(angleRad);</span>
+<span class="fc" id="L44">        double angleRad = Math.atan2(deltaY, deltaX);</span>
+<span class="fc" id="L45">        return Math.toDegrees(angleRad);</span>
     }
 
     /**
@@ -50,8 +50,8 @@ public class Coords {
      * @param yOffset Y offset to add to this
      */
     public void move(double xOffset, double yOffset) {
-<span class="nc" id="L53">        setX(getX() + xOffset);</span>
-<span class="nc" id="L54">        setY(getY() - yOffset);</span>
-<span class="nc" id="L55">    }</span>
+<span class="fc" id="L53">        setX(getX() + xOffset);</span>
+<span class="fc" id="L54">        setY(getY() - yOffset);</span>
+<span class="fc" id="L55">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

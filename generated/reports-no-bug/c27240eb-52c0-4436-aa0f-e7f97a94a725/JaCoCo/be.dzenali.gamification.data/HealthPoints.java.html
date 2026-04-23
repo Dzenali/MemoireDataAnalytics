@@ -5,23 +5,23 @@ public class HealthPoints {
     private final int maxHP;
 
 
-<span class="nc" id="L8">    public HealthPoints(int currentHP,int maxHP) {</span>
-<span class="nc bnc" id="L9" title="All 2 branches missed.">        if(maxHP &lt;= 0){</span>
+<span class="fc" id="L8">    public HealthPoints(int currentHP,int maxHP) {</span>
+<span class="pc bpc" id="L9" title="1 of 2 branches missed.">        if(maxHP &lt;= 0){</span>
 <span class="nc" id="L10">            maxHP = 1;</span>
         }
-<span class="nc bnc" id="L12" title="All 2 branches missed.">        if(currentHP &gt; maxHP){</span>
+<span class="pc bpc" id="L12" title="1 of 2 branches missed.">        if(currentHP &gt; maxHP){</span>
 <span class="nc" id="L13">            currentHP = maxHP;</span>
         }
-<span class="nc bnc" id="L15" title="All 2 branches missed.">        if(currentHP &lt;= 0){</span>
+<span class="pc bpc" id="L15" title="1 of 2 branches missed.">        if(currentHP &lt;= 0){</span>
 <span class="nc" id="L16">            currentHP = 1;</span>
         }
-<span class="nc" id="L18">        this.currentHP = currentHP;</span>
-<span class="nc" id="L19">        this.maxHP = maxHP;</span>
-<span class="nc" id="L20">    }</span>
+<span class="fc" id="L18">        this.currentHP = currentHP;</span>
+<span class="fc" id="L19">        this.maxHP = maxHP;</span>
+<span class="fc" id="L20">    }</span>
 
-<span class="nc" id="L22">    public int getMaxHP() { return maxHP; }</span>
+<span class="fc" id="L22">    public int getMaxHP() { return maxHP; }</span>
 
-<span class="nc" id="L24">    public int getCurrentHP() { return currentHP; }</span>
+<span class="fc" id="L24">    public int getCurrentHP() { return currentHP; }</span>
 
     /**
      * Increase current and max hp.
@@ -40,14 +40,14 @@ public class HealthPoints {
      * @return current hp value
      */
     public int updateCurrentHP(double amount) {
-<span class="nc bnc" id="L43" title="All 2 branches missed.">        if(this.getCurrentHP() + amount &gt; this.getMaxHP()) {</span>
+<span class="pc bpc" id="L43" title="1 of 2 branches missed.">        if(this.getCurrentHP() + amount &gt; this.getMaxHP()) {</span>
 <span class="nc" id="L44">            this.currentHP = this.getMaxHP();</span>
-<span class="nc bnc" id="L45" title="All 2 branches missed.">        } else if (this.currentHP + amount &lt; 1) {</span>
-<span class="nc" id="L46">            this.currentHP = 0;</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        } else if (this.currentHP + amount &lt; 1) {</span>
+<span class="fc" id="L46">            this.currentHP = 0;</span>
         } else {
-<span class="nc" id="L48">            this.currentHP += (int)amount;</span>
+<span class="fc" id="L48">            this.currentHP += (int)amount;</span>
         }
-<span class="nc" id="L50">        return this.getCurrentHP();</span>
+<span class="fc" id="L50">        return this.getCurrentHP();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

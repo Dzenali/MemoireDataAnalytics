@@ -4,12 +4,12 @@ import be.dzenali.gamification.data.ArmorType;
 import be.dzenali.gamification.item.Armor;
 
 public class ArmorBuilder extends EquipmentBuilder {
-<span class="nc" id="L7">    private int armorClass = 14;</span>
-<span class="nc" id="L8">    private ArmorType type = ArmorType.HEAVY;</span>
+<span class="fc" id="L7">    private int armorClass = 14;</span>
+<span class="fc" id="L8">    private ArmorType type = ArmorType.HEAVY;</span>
 
-<span class="nc" id="L10">    public ArmorBuilder() {</span>
+<span class="fc" id="L10">    public ArmorBuilder() {</span>
 
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L12">    }</span>
 
     public ArmorBuilder setArmorClass(int armorClass) {
 <span class="nc" id="L15">        this.armorClass = armorClass;</span>
@@ -22,7 +22,7 @@ public class ArmorBuilder extends EquipmentBuilder {
     }
 
     public Armor build() {
-<span class="nc" id="L25">        return new Armor(this.armorClass, this.type, this.durability, this.value);</span>
+<span class="fc" id="L25">        return new Armor(this.armorClass, this.type, this.durability, this.value);</span>
     }
 }
 

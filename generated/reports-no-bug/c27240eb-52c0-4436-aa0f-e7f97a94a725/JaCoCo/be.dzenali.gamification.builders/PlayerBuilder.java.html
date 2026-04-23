@@ -12,16 +12,16 @@ import java.util.EnumMap;
 import java.util.Map;
 
 public class PlayerBuilder {
-<span class="nc" id="L15">    private String name = &quot;Player&quot;;</span>
-<span class="nc" id="L16">    private int healthModifier = 8;</span>
-<span class="nc" id="L17">    private Weapon weapon = new WeaponBuilder().build();</span>
-<span class="nc" id="L18">    private final Map&lt;StatType, Integer&gt; stats = new EnumMap&lt;&gt;(StatType.class);</span>
-<span class="nc" id="L19">    private Armor armor = new ArmorBuilder().build();</span>
-<span class="nc" id="L20">    private ArrayList&lt;Item&gt; equipment = new ArrayList&lt;Item&gt;();</span>
+<span class="fc" id="L15">    private String name = &quot;Player&quot;;</span>
+<span class="fc" id="L16">    private int healthModifier = 8;</span>
+<span class="fc" id="L17">    private Weapon weapon = new WeaponBuilder().build();</span>
+<span class="fc" id="L18">    private final Map&lt;StatType, Integer&gt; stats = new EnumMap&lt;&gt;(StatType.class);</span>
+<span class="fc" id="L19">    private Armor armor = new ArmorBuilder().build();</span>
+<span class="fc" id="L20">    private ArrayList&lt;Item&gt; equipment = new ArrayList&lt;Item&gt;();</span>
 
-<span class="nc" id="L22">    public PlayerBuilder() {</span>
+<span class="fc" id="L22">    public PlayerBuilder() {</span>
 
-<span class="nc" id="L24">    }</span>
+<span class="fc" id="L24">    }</span>
 
     public PlayerBuilder setName(String name) {
 <span class="nc" id="L27">        this.name = name;</span>
@@ -56,15 +56,15 @@ public class PlayerBuilder {
 
 
     public Player build() {
-<span class="nc" id="L59">        StatBlock statBlock = new StatBlock(</span>
-<span class="nc" id="L60">                this.stats.getOrDefault(StatType.STRENGTH, 16),</span>
-<span class="nc" id="L61">                this.stats.getOrDefault(StatType.DEXTERITY, 14),</span>
-<span class="nc" id="L62">                this.stats.getOrDefault(StatType.CONSTITUTION, 15),</span>
-<span class="nc" id="L63">                this.stats.getOrDefault(StatType.INTELLIGENCE, 10),</span>
-<span class="nc" id="L64">                this.stats.getOrDefault(StatType.WISDOM, 10),</span>
-<span class="nc" id="L65">                this.stats.getOrDefault(StatType.CHARISMA, 12)</span>
+<span class="fc" id="L59">        StatBlock statBlock = new StatBlock(</span>
+<span class="fc" id="L60">                this.stats.getOrDefault(StatType.STRENGTH, 16),</span>
+<span class="fc" id="L61">                this.stats.getOrDefault(StatType.DEXTERITY, 14),</span>
+<span class="fc" id="L62">                this.stats.getOrDefault(StatType.CONSTITUTION, 15),</span>
+<span class="fc" id="L63">                this.stats.getOrDefault(StatType.INTELLIGENCE, 10),</span>
+<span class="fc" id="L64">                this.stats.getOrDefault(StatType.WISDOM, 10),</span>
+<span class="fc" id="L65">                this.stats.getOrDefault(StatType.CHARISMA, 12)</span>
         );
-<span class="nc" id="L67">        return new Player(this.name,</span>
+<span class="fc" id="L67">        return new Player(this.name,</span>
                 this.healthModifier,
                 statBlock,
                 this.armor,

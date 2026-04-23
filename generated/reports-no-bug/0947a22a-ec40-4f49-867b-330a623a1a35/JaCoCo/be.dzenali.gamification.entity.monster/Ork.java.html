@@ -11,28 +11,28 @@ public class Ork extends Monster {
      * A common enemy
      */
     public Ork(){
-<span class="nc" id="L14">        super(&quot;Ork&quot;,</span>
+<span class="fc" id="L14">        super(&quot;Ork&quot;,</span>
                 3,
                 new StatBlock(12,12,14,6,8,5),
                 12,
                 12,
                 Aggressivity.MEDIUM,
                 400);
-<span class="nc" id="L21">        this.ironWill = false;</span>
-<span class="nc" id="L22">    }</span>
+<span class="fc" id="L21">        this.ironWill = false;</span>
+<span class="fc" id="L22">    }</span>
 
-<span class="nc bnc" id="L24" title="All 2 branches missed.">    public void ironWill() { ironWill = !ironWill;}</span>
+<span class="fc bfc" id="L24" title="All 2 branches covered.">    public void ironWill() { ironWill = !ironWill;}</span>
 
-<span class="nc" id="L26">    public boolean ironWillIsActive() { return ironWill; }</span>
+<span class="fc" id="L26">    public boolean ironWillIsActive() { return ironWill; }</span>
 
     @Override
     public int getArmorClass() {
-<span class="nc bnc" id="L30" title="All 2 branches missed.">        return ironWill ? super.getArmorClass() + 6 : super.getArmorClass();</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        return ironWill ? super.getArmorClass() + 6 : super.getArmorClass();</span>
     }
 
     @Override
     public int getAttackDmg(){
-<span class="nc bnc" id="L35" title="All 2 branches missed.">        return ironWill ? super.getAttackDmg() + 3 : super.getAttackDmg();</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">        return ironWill ? super.getAttackDmg() + 3 : super.getAttackDmg();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

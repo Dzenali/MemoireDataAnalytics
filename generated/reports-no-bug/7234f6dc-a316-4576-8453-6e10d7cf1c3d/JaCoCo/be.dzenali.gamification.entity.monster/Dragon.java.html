@@ -10,14 +10,14 @@ public class Dragon extends Monster {
      * The strongest few to be met
      */
     public Dragon() {
-<span class="nc" id="L13">        super(&quot;Dragon&quot;,</span>
+<span class="fc" id="L13">        super(&quot;Dragon&quot;,</span>
                 15,
                 new StatBlock(20,20,20,20,20,20),
                 36,
                 20,
                 Aggressivity.HIGH,
                 5000);
-<span class="nc" id="L20">    }</span>
+<span class="fc" id="L20">    }</span>
 
     /**
      * Deals twice less damage once it is grounded
@@ -42,7 +42,7 @@ public class Dragon extends Monster {
      * @return whether it can fly (hp &gt;= max hp/2)
      */
     public boolean canFly(){
-<span class="nc bnc" id="L45" title="All 2 branches missed.">        return getHealthPoints().getCurrentHP() &gt;= (getHealthPoints().getMaxHP()/2);</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        return getHealthPoints().getCurrentHP() &gt;= (getHealthPoints().getMaxHP()/2);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

@@ -5,18 +5,18 @@ public class Equipment {
     private int maxDurability;
     private int value;
 
-<span class="nc" id="L8">    public Equipment(int durability, int value) {</span>
-<span class="nc" id="L9">        this.value = value;</span>
-<span class="nc" id="L10">        this.durability = durability;</span>
-<span class="nc" id="L11">        this.maxDurability = durability;</span>
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L8">    public Equipment(int durability, int value) {</span>
+<span class="fc" id="L9">        this.value = value;</span>
+<span class="fc" id="L10">        this.durability = durability;</span>
+<span class="fc" id="L11">        this.maxDurability = durability;</span>
+<span class="fc" id="L12">    }</span>
 
     public boolean isBroken(){
-<span class="nc bnc" id="L15" title="All 2 branches missed.">        return durability &lt;= 0;</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">        return durability &lt;= 0;</span>
     }
 
     public int getDurability() {
-<span class="nc bnc" id="L19" title="All 2 branches missed.">        return isBroken() ? 0 : durability;</span>
+<span class="pc bpc" id="L19" title="1 of 2 branches missed.">        return isBroken() ? 0 : durability;</span>
     }
 
     public int getValue() {
@@ -24,8 +24,8 @@ public class Equipment {
     }
 
     public void updateDurability(int durability){
-<span class="nc" id="L27">        this.durability += durability;</span>
-<span class="nc" id="L28">    }</span>
+<span class="fc" id="L27">        this.durability += durability;</span>
+<span class="fc" id="L28">    }</span>
 
 <span class="nc" id="L30">    public int getMaxDurability() { return maxDurability; }</span>
 }

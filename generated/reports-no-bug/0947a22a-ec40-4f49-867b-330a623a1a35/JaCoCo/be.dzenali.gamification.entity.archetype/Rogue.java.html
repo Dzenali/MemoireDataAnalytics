@@ -16,14 +16,14 @@ public class Rogue extends Player {
      * Basic archetype of a &quot;c&quot; user
      */
     public Rogue() {
-<span class="nc" id="L19">        super(&quot;Rogue&quot;,</span>
+<span class="fc" id="L19">        super(&quot;Rogue&quot;,</span>
                 1,
                 new StatBlock(12,18,12,10,10,12),
                 new Gabison(),
                 new DualDagger(),
                 new ArrayList&lt;Item&gt;());
-<span class="nc" id="L25">        this.energy = 100;</span>
-<span class="nc" id="L26">    }</span>
+<span class="fc" id="L25">        this.energy = 100;</span>
+<span class="fc" id="L26">    }</span>
 
     /**
      * Execute a monster if is health is currently lower than 10% of max health
@@ -31,9 +31,9 @@ public class Rogue extends Player {
      * @return currentHP of monster
      */
     public int execute(Monster monster) {
-<span class="nc bnc" id="L34" title="All 4 branches missed.">        if((monster.getHealthPoints().getCurrentHP() &lt; monster.getHealthPoints().getMaxHP()/10) &amp;&amp; energy &gt;= 10){</span>
-<span class="nc" id="L35">            System.out.println(&quot;You execute your enemy!&quot;);</span>
-<span class="nc" id="L36">            return monster.getHealthPoints().getCurrentHP();</span>
+<span class="pc bpc" id="L34" title="2 of 4 branches missed.">        if((monster.getHealthPoints().getCurrentHP() &lt; monster.getHealthPoints().getMaxHP()/10) &amp;&amp; energy &gt;= 10){</span>
+<span class="fc" id="L35">            System.out.println(&quot;You execute your enemy!&quot;);</span>
+<span class="fc" id="L36">            return monster.getHealthPoints().getCurrentHP();</span>
 <span class="nc bnc" id="L37" title="All 2 branches missed.">        } else if (energy &lt; 10){</span>
 <span class="nc" id="L38">            System.out.println(&quot;You don't have enough energy...&quot;);</span>
 <span class="nc" id="L39">            return 0;</span>
@@ -44,11 +44,11 @@ public class Rogue extends Player {
     }
 
     public int shadowClone(){
-<span class="nc" id="L47">        return attack()*2;</span>
+<span class="fc" id="L47">        return attack()*2;</span>
     }
 
     public int getRessource(){
-<span class="nc" id="L51">        return energy;</span>
+<span class="fc" id="L51">        return energy;</span>
     }
 
 }

@@ -15,14 +15,14 @@ public class Mage extends Player {
      * Basic archetype of library rat
      */
     public Mage() {
-<span class="nc" id="L18">        super(&quot;Mage&quot;,</span>
+<span class="fc" id="L18">        super(&quot;Mage&quot;,</span>
                 3,
                 new StatBlock(8,8,10,18,14,12),
                 new Pajama(),
                 new Toothpick(),
                 new ArrayList&lt;Item&gt;());
-<span class="nc" id="L24">        this.mana = 300;</span>
-<span class="nc" id="L25">    }</span>
+<span class="fc" id="L24">        this.mana = 300;</span>
+<span class="fc" id="L25">    }</span>
 
     /**
      * Casts a given spell and return damage/heal value if possible or 0 otherwise
@@ -30,12 +30,12 @@ public class Mage extends Player {
      * @return damage value
      */
     public int cast(String spellName){
-<span class="nc bnc" id="L33" title="All 4 branches missed.">        switch (spellName){</span>
+<span class="pc bpc" id="L33" title="3 of 4 branches missed.">        switch (spellName){</span>
             case &quot;FireBall&quot; -&gt; {
-<span class="nc bnc" id="L35" title="All 2 branches missed.">                if(mana &gt;= 30){</span>
-<span class="nc" id="L36">                    mana -= 30;</span>
-<span class="nc" id="L37">                    System.out.println(&quot;Casting Fire Ball!&quot;);</span>
-<span class="nc" id="L38">                    return 65;</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">                if(mana &gt;= 30){</span>
+<span class="fc" id="L36">                    mana -= 30;</span>
+<span class="fc" id="L37">                    System.out.println(&quot;Casting Fire Ball!&quot;);</span>
+<span class="fc" id="L38">                    return 65;</span>
                 }
             }
             case &quot;IceSpear&quot; -&gt; {
@@ -53,13 +53,13 @@ public class Mage extends Player {
                 }
             }
         }
-<span class="nc" id="L56">        return 0;</span>
+<span class="fc" id="L56">        return 0;</span>
     }
 
     public void setMana(int mana) {
-<span class="nc" id="L60">        this.mana = mana;</span>
-<span class="nc" id="L61">    }</span>
+<span class="fc" id="L60">        this.mana = mana;</span>
+<span class="fc" id="L61">    }</span>
 
-<span class="nc" id="L63">    public int getResource(){ return mana;}</span>
+<span class="fc" id="L63">    public int getResource(){ return mana;}</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

@@ -7,17 +7,17 @@ public class Armor extends Equipment {
     private final ArmorType armorType;
 
     public Armor(int armorClass, ArmorType armorType, int durability, int value) {
-<span class="nc" id="L10">        super(durability,value);</span>
-<span class="nc" id="L11">        this.armorClass = armorClass;</span>
-<span class="nc" id="L12">        this.armorType = armorType;</span>
-<span class="nc" id="L13">    }</span>
+<span class="fc" id="L10">        super(durability,value);</span>
+<span class="fc" id="L11">        this.armorClass = armorClass;</span>
+<span class="fc" id="L12">        this.armorType = armorType;</span>
+<span class="fc" id="L13">    }</span>
 
     public int getArmorClass() {
-<span class="nc bnc" id="L16" title="All 2 branches missed.">        return isBroken() ? 10 : armorClass;</span>
+<span class="pc bpc" id="L16" title="1 of 2 branches missed.">        return isBroken() ? 10 : armorClass;</span>
     }
 
     public ArmorType getArmorType() {
-<span class="nc" id="L20">        return armorType;</span>
+<span class="fc" id="L20">        return armorType;</span>
     }
 
     /**
@@ -36,13 +36,13 @@ public class Armor extends Equipment {
      * @return max bonus from dex given armor class
      */
     public int getArmorClassDexBonusCap(){
-<span class="nc" id="L39">        int cap = 0;</span>
-<span class="nc bnc" id="L40" title="All 4 branches missed.">        switch (armorType){</span>
-<span class="nc" id="L41">            case LIGHT -&gt; cap = 5;</span>
+<span class="fc" id="L39">        int cap = 0;</span>
+<span class="pc bpc" id="L40" title="2 of 4 branches missed.">        switch (armorType){</span>
+<span class="fc" id="L41">            case LIGHT -&gt; cap = 5;</span>
 <span class="nc" id="L42">            case MEDIUM -&gt; cap =  3;</span>
-<span class="nc" id="L43">            case HEAVY -&gt; cap = 0;</span>
+<span class="fc" id="L43">            case HEAVY -&gt; cap = 0;</span>
         }
-<span class="nc" id="L45">        return cap;</span>
+<span class="fc" id="L45">        return cap;</span>
     }
 
     @Override

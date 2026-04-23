@@ -20,51 +20,51 @@ public class Monster{
                    int attack,
                    int armorClass,
                    Aggressivity aggressivity,
-<span class="nc" id="L23">                   int exp) {</span>
-<span class="nc" id="L24">        this.name = name;</span>
-<span class="nc" id="L25">        this.healthPoints = new HealthPoints((statblock.get(StatType.CONSTITUTION)*level), (statblock.get(StatType.CONSTITUTION)*level));</span>
-<span class="nc" id="L26">        this.statBlock = statblock;</span>
-<span class="nc" id="L27">        this.attack = attack;</span>
-<span class="nc" id="L28">        this.armorClass = armorClass;</span>
-<span class="nc" id="L29">        this.aggressivity = aggressivity;</span>
-<span class="nc" id="L30">        this.exp = exp;</span>
-<span class="nc" id="L31">    }</span>
+<span class="fc" id="L23">                   int exp) {</span>
+<span class="fc" id="L24">        this.name = name;</span>
+<span class="fc" id="L25">        this.healthPoints = new HealthPoints((statblock.get(StatType.CONSTITUTION)*level), (statblock.get(StatType.CONSTITUTION)*level));</span>
+<span class="fc" id="L26">        this.statBlock = statblock;</span>
+<span class="fc" id="L27">        this.attack = attack;</span>
+<span class="fc" id="L28">        this.armorClass = armorClass;</span>
+<span class="fc" id="L29">        this.aggressivity = aggressivity;</span>
+<span class="fc" id="L30">        this.exp = exp;</span>
+<span class="fc" id="L31">    }</span>
 
-<span class="nc" id="L33">    public String getName() { return name; }</span>
+<span class="fc" id="L33">    public String getName() { return name; }</span>
 
-<span class="nc" id="L35">    public HealthPoints getHealthPoints() { return healthPoints; }</span>
+<span class="fc" id="L35">    public HealthPoints getHealthPoints() { return healthPoints; }</span>
 
-<span class="nc" id="L37">    public int getStat(StatType statType) { return statBlock.get(statType); }</span>
+<span class="fc" id="L37">    public int getStat(StatType statType) { return statBlock.get(statType); }</span>
 
-<span class="nc" id="L39">    public StatBlock getStatBlock() { return statBlock; }</span>
+<span class="fc" id="L39">    public StatBlock getStatBlock() { return statBlock; }</span>
 
     /**
      *  Damages based on attack times aggressivity multiplier
      * @return dmg * mult
      */
     public int getAttackDmg() {
-<span class="nc" id="L46">        return (int)(attack *  aggressivity.getMultiplier());</span>
+<span class="fc" id="L46">        return (int)(attack *  aggressivity.getMultiplier());</span>
     }
     /**
      *  armor based on attack times aggressivity multiplier
      * @return armor * mult
      */
     public int getArmorClass() {
-<span class="nc" id="L53">        return (int)(armorClass /  aggressivity.getMultiplier());</span>
+<span class="fc" id="L53">        return (int)(armorClass /  aggressivity.getMultiplier());</span>
     }
 
-<span class="nc" id="L56">    public Aggressivity getAggressivity() { return aggressivity; }</span>
+<span class="fc" id="L56">    public Aggressivity getAggressivity() { return aggressivity; }</span>
 
-<span class="nc" id="L58">    public void changeAggressivity(Aggressivity aggressivity) { this.aggressivity = aggressivity; }</span>
+<span class="fc" id="L58">    public void changeAggressivity(Aggressivity aggressivity) { this.aggressivity = aggressivity; }</span>
 
-<span class="nc" id="L60">    public int getExp() { return exp; }</span>
+<span class="fc" id="L60">    public int getExp() { return exp; }</span>
 
-<span class="nc bnc" id="L62" title="All 2 branches missed.">    public boolean isAlive(){return healthPoints.getCurrentHP() &gt;0;}</span>
+<span class="fc bfc" id="L62" title="All 2 branches covered.">    public boolean isAlive(){return healthPoints.getCurrentHP() &gt;0;}</span>
 
     @Override
     public String toString() {
-<span class="nc" id="L66">        return String.format(&quot;%s - HP: %d/%d&quot;,</span>
-<span class="nc" id="L67">                name, healthPoints.getCurrentHP(), healthPoints.getMaxHP());</span>
+<span class="fc" id="L66">        return String.format(&quot;%s - HP: %d/%d&quot;,</span>
+<span class="fc" id="L67">                name, healthPoints.getCurrentHP(), healthPoints.getMaxHP());</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

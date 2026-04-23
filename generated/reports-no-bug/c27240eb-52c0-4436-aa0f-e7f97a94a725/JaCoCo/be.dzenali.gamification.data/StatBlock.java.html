@@ -8,39 +8,39 @@ import java.util.Map;
  */
 public class StatBlock {
 
-<span class="nc" id="L11">    private final Map&lt;StatType, Integer&gt; stats = new EnumMap&lt;&gt;(StatType.class);</span>
+<span class="fc" id="L11">    private final Map&lt;StatType, Integer&gt; stats = new EnumMap&lt;&gt;(StatType.class);</span>
 
-<span class="nc" id="L13">    public StatBlock(int str, int dex, int con, int intel, int wis, int cha) {</span>
-<span class="nc" id="L14">        stats.put(StatType.STRENGTH, validateInit(str));</span>
-<span class="nc" id="L15">        stats.put(StatType.DEXTERITY, validateInit(dex));</span>
-<span class="nc" id="L16">        stats.put(StatType.CONSTITUTION, validateInit(con));</span>
-<span class="nc" id="L17">        stats.put(StatType.INTELLIGENCE, validateInit(intel));</span>
-<span class="nc" id="L18">        stats.put(StatType.WISDOM, validateInit(wis));</span>
-<span class="nc" id="L19">        stats.put(StatType.CHARISMA, validateInit(cha));</span>
-<span class="nc" id="L20">    }</span>
+<span class="fc" id="L13">    public StatBlock(int str, int dex, int con, int intel, int wis, int cha) {</span>
+<span class="fc" id="L14">        stats.put(StatType.STRENGTH, validateInit(str));</span>
+<span class="fc" id="L15">        stats.put(StatType.DEXTERITY, validateInit(dex));</span>
+<span class="fc" id="L16">        stats.put(StatType.CONSTITUTION, validateInit(con));</span>
+<span class="fc" id="L17">        stats.put(StatType.INTELLIGENCE, validateInit(intel));</span>
+<span class="fc" id="L18">        stats.put(StatType.WISDOM, validateInit(wis));</span>
+<span class="fc" id="L19">        stats.put(StatType.CHARISMA, validateInit(cha));</span>
+<span class="fc" id="L20">    }</span>
 
     public int get(StatType type) {
-<span class="nc" id="L23">        return stats.get(type);</span>
+<span class="fc" id="L23">        return stats.get(type);</span>
     }
 
     public void increase(StatType type) {
-<span class="nc bnc" id="L27" title="All 2 branches missed.">        if(validateIncrease(type)) { stats.put(type, stats.get(type) + 1); }</span>
+<span class="pc bpc" id="L27" title="1 of 2 branches missed.">        if(validateIncrease(type)) { stats.put(type, stats.get(type) + 1); }</span>
         else{
 <span class="nc" id="L29">            System.out.println(&quot;Stat&quot; + type + &quot;cannot increase above 20.&quot;);</span>
         }
-<span class="nc" id="L31">    }</span>
+<span class="fc" id="L31">    }</span>
 
     private int validateInit(int value) {
-<span class="nc bnc" id="L34" title="All 2 branches missed.">        if (value &lt; 1) {</span>
+<span class="pc bpc" id="L34" title="1 of 2 branches missed.">        if (value &lt; 1) {</span>
 <span class="nc" id="L35">            value = 1;</span>
-<span class="nc bnc" id="L36" title="All 2 branches missed.">        } else if (value &gt; 18) {</span>
-<span class="nc" id="L37">            value = 18;</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">        } else if (value &gt; 18) {</span>
+<span class="fc" id="L37">            value = 18;</span>
         }
-<span class="nc" id="L39">        return value;</span>
+<span class="fc" id="L39">        return value;</span>
     }
 
     private boolean validateIncrease(StatType stat) {
-<span class="nc bnc" id="L43" title="All 2 branches missed.">        return stats.get(stat) &lt; 20;</span>
+<span class="pc bpc" id="L43" title="1 of 2 branches missed.">        return stats.get(stat) &lt; 20;</span>
     }
 
 }

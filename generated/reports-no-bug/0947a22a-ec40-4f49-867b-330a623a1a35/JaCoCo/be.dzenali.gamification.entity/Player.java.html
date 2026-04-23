@@ -25,31 +25,31 @@ public class Player {
                   StatBlock statblock,
                   Armor armor,
                   Weapon weapon,
-<span class="nc" id="L28">                  ArrayList&lt;Item&gt; equipment) {</span>
-<span class="nc" id="L29">        this.name = name;</span>
-<span class="nc" id="L30">        this.healthPoints = new HealthPoints((statblock.get(StatType.CONSTITUTION)*healthModifier), (statblock.get(StatType.CONSTITUTION)*healthModifier));</span>
-<span class="nc" id="L31">        this.statBlock = statblock;</span>
-<span class="nc" id="L32">        this.armor = armor;</span>
-<span class="nc" id="L33">        this.weapon = weapon;</span>
-<span class="nc" id="L34">        carryingCapacity = statblock.get(StatType.STRENGTH)*5 + 30;</span>
-<span class="nc" id="L35">        setEquipment(equipment, carryingCapacity);</span>
-<span class="nc" id="L36">        this.level = 1;</span>
-<span class="nc" id="L37">        this.exp = 0;</span>
-<span class="nc" id="L38">    }</span>
+<span class="fc" id="L28">                  ArrayList&lt;Item&gt; equipment) {</span>
+<span class="fc" id="L29">        this.name = name;</span>
+<span class="fc" id="L30">        this.healthPoints = new HealthPoints((statblock.get(StatType.CONSTITUTION)*healthModifier), (statblock.get(StatType.CONSTITUTION)*healthModifier));</span>
+<span class="fc" id="L31">        this.statBlock = statblock;</span>
+<span class="fc" id="L32">        this.armor = armor;</span>
+<span class="fc" id="L33">        this.weapon = weapon;</span>
+<span class="fc" id="L34">        carryingCapacity = statblock.get(StatType.STRENGTH)*5 + 30;</span>
+<span class="fc" id="L35">        setEquipment(equipment, carryingCapacity);</span>
+<span class="fc" id="L36">        this.level = 1;</span>
+<span class="fc" id="L37">        this.exp = 0;</span>
+<span class="fc" id="L38">    }</span>
 
-<span class="nc" id="L40">    public String getName() { return name; }</span>
+<span class="fc" id="L40">    public String getName() { return name; }</span>
 
-<span class="nc" id="L42">    public void setName(String name){ this.name = name;}</span>
+<span class="fc" id="L42">    public void setName(String name){ this.name = name;}</span>
 
     public int getArmorClass(){
-<span class="nc" id="L45">        return armor.getArmorClass() + armorClassDexBonus();</span>
+<span class="fc" id="L45">        return armor.getArmorClass() + armorClassDexBonus();</span>
     }
 
-<span class="nc" id="L48">    public int getStat(StatType statType) { return statBlock.get(statType); }</span>
+<span class="fc" id="L48">    public int getStat(StatType statType) { return statBlock.get(statType); }</span>
 
-<span class="nc" id="L50">    public HealthPoints getHealthPoints() { return healthPoints; }</span>
+<span class="fc" id="L50">    public HealthPoints getHealthPoints() { return healthPoints; }</span>
 
-<span class="nc" id="L52">    public Armor getArmor(){ return armor; }</span>
+<span class="fc" id="L52">    public Armor getArmor(){ return armor; }</span>
 
 <span class="nc" id="L54">    public void setArmor(Armor armor){ this.armor = armor; }</span>
 
@@ -57,13 +57,13 @@ public class Player {
 
 <span class="nc" id="L58">    public void setWeapon(Weapon weapon){ this.weapon = weapon;}</span>
 
-<span class="nc" id="L60">    public int attack(){ return weapon.getDamage();}</span>
+<span class="fc" id="L60">    public int attack(){ return weapon.getDamage();}</span>
 
-<span class="nc" id="L62">    public void addEquipment(Item item){ equipment.add(item); }</span>
+<span class="fc" id="L62">    public void addEquipment(Item item){ equipment.add(item); }</span>
 
 <span class="nc" id="L64">    public ArrayList&lt;Item&gt; getEquipment(){ return equipment; }</span>
 
-<span class="nc bnc" id="L66" title="All 2 branches missed.">    public boolean isAlive(){return healthPoints.getCurrentHP() &gt;0;}</span>
+<span class="fc bfc" id="L66" title="All 2 branches covered.">    public boolean isAlive(){return healthPoints.getCurrentHP() &gt;0;}</span>
 
     public void removeItem(Item item){
 <span class="nc bnc" id="L69" title="All 2 branches missed.">        if(equipment.contains(item)){</span>
@@ -73,23 +73,23 @@ public class Player {
         }
 <span class="nc" id="L74">    }</span>
 
-<span class="nc" id="L76">    public int getLevel() { return level; }</span>
+<span class="fc" id="L76">    public int getLevel() { return level; }</span>
 
     public void levelUp(StatType statType) {
-<span class="nc" id="L79">        level ++;</span>
-<span class="nc" id="L80">        statBlock.increase(statType);</span>
-<span class="nc" id="L81">    }</span>
+<span class="fc" id="L79">        level ++;</span>
+<span class="fc" id="L80">        statBlock.increase(statType);</span>
+<span class="fc" id="L81">    }</span>
 
-<span class="nc" id="L83">    public void gainExperience(int exp) {this.exp += exp;}</span>
+<span class="fc" id="L83">    public void gainExperience(int exp) {this.exp += exp;}</span>
 
-<span class="nc" id="L85">    public int getExperience(){ return exp;}</span>
+<span class="fc" id="L85">    public int getExperience(){ return exp;}</span>
 
 <span class="nc" id="L87">    public int getResource(){return 0;};</span>
 
     private void setEquipment(ArrayList&lt;Item&gt; equipment, int maxWeight){
-<span class="nc" id="L90">        int weight = 0;</span>
-<span class="nc" id="L91">        this.equipment = new ArrayList&lt;&gt;();</span>
-<span class="nc bnc" id="L92" title="All 4 branches missed.">        while( weight &lt; maxWeight &amp;&amp; !equipment.isEmpty()){</span>
+<span class="fc" id="L90">        int weight = 0;</span>
+<span class="fc" id="L91">        this.equipment = new ArrayList&lt;&gt;();</span>
+<span class="pc bpc" id="L92" title="2 of 4 branches missed.">        while( weight &lt; maxWeight &amp;&amp; !equipment.isEmpty()){</span>
 <span class="nc bnc" id="L93" title="All 2 branches missed.">            if(equipment.get(0).getWeight() + weight &gt; maxWeight){</span>
 <span class="nc" id="L94">                return;</span>
             } else {
@@ -98,12 +98,12 @@ public class Player {
 <span class="nc" id="L98">                equipment.remove(0);</span>
             }
         }
-<span class="nc" id="L101">    }</span>
+<span class="fc" id="L101">    }</span>
 
     private int armorClassDexBonus(){
-<span class="nc" id="L104">        int dexBonus = getStat(StatType.DEXTERITY)/5;</span>
-<span class="nc" id="L105">        int armorCapDexBonus = armor.getArmorClassDexBonusCap();</span>
-<span class="nc" id="L106">        return Math.min(dexBonus, armorCapDexBonus);</span>
+<span class="fc" id="L104">        int dexBonus = getStat(StatType.DEXTERITY)/5;</span>
+<span class="fc" id="L105">        int armorCapDexBonus = armor.getArmorClassDexBonusCap();</span>
+<span class="fc" id="L106">        return Math.min(dexBonus, armorCapDexBonus);</span>
     }
     @Override
     public String toString() {

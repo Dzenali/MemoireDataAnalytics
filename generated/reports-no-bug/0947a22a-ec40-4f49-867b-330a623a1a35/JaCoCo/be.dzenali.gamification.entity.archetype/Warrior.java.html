@@ -17,14 +17,14 @@ public class Warrior extends Player {
      * Basic archetype of all brawl and no brain
      */
     public Warrior() {
-<span class="nc" id="L20">        super(&quot;Warrior&quot;,</span>
+<span class="fc" id="L20">        super(&quot;Warrior&quot;,</span>
                 8,
                 new StatBlock(16,14,15,10,10,12),
                 new ChainVest(),
                 new Espadon(),
                 new ArrayList&lt;Item&gt;());
-<span class="nc" id="L26">        this.addEquipment(new HealthPotion());</span>
-<span class="nc" id="L27">    }</span>
+<span class="fc" id="L26">        this.addEquipment(new HealthPotion());</span>
+<span class="fc" id="L27">    }</span>
 
     /**
      * Warrior attack, increasing rage (max100) and return weapon dmg.
@@ -32,23 +32,23 @@ public class Warrior extends Player {
      */
     @Override
     public int attack(){
-<span class="nc" id="L35">        int dmg = super.attack();</span>
-<span class="nc" id="L36">        System.out.println(&quot;You attack and gain 10 rage.&quot;);</span>
-<span class="nc bnc" id="L37" title="All 2 branches missed.">        rage = rage &lt;= 90 ? rage + 10 : rage;</span>
-<span class="nc" id="L38">        return dmg;</span>
+<span class="fc" id="L35">        int dmg = super.attack();</span>
+<span class="fc" id="L36">        System.out.println(&quot;You attack and gain 10 rage.&quot;);</span>
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">        rage = rage &lt;= 90 ? rage + 10 : rage;</span>
+<span class="fc" id="L38">        return dmg;</span>
     }
 
     public int useWhirlWind(){
-<span class="nc bnc" id="L42" title="All 2 branches missed.">        if(rage &gt;= 30){</span>
-<span class="nc" id="L43">            rage -= 30;</span>
-<span class="nc" id="L44">            System.out.println(&quot;Using WhirlWind!&quot;);</span>
-<span class="nc" id="L45">            return 3*getStat(StatType.STRENGTH) + super.attack();</span>
+<span class="pc bpc" id="L42" title="1 of 2 branches missed.">        if(rage &gt;= 30){</span>
+<span class="fc" id="L43">            rage -= 30;</span>
+<span class="fc" id="L44">            System.out.println(&quot;Using WhirlWind!&quot;);</span>
+<span class="fc" id="L45">            return 3*getStat(StatType.STRENGTH) + super.attack();</span>
         } else {
 <span class="nc" id="L47">            System.out.println(&quot;Rage is &quot; + rage + &quot;, it's not enough to throw whirlwind... :'(&quot;);</span>
 <span class="nc" id="L48">            return 0;</span>
         }
     }
 
-<span class="nc" id="L52">    public int getResource(){ return rage;}</span>
+<span class="fc" id="L52">    public int getResource(){ return rage;}</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

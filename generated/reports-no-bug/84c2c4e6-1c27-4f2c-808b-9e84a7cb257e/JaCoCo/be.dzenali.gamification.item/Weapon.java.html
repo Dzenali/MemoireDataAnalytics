@@ -8,26 +8,26 @@ public class Weapon extends Equipment {
 
 
     public Weapon(int damage, WeaponType weaponType, int durability, int value) {
-<span class="nc" id="L11">        super(durability,value);</span>
-<span class="nc" id="L12">        this.damage = damage;</span>
-<span class="nc" id="L13">        this.weaponType = weaponType;</span>
-<span class="nc" id="L14">    }</span>
+<span class="fc" id="L11">        super(durability,value);</span>
+<span class="fc" id="L12">        this.damage = damage;</span>
+<span class="fc" id="L13">        this.weaponType = weaponType;</span>
+<span class="fc" id="L14">    }</span>
 
     public int getWeaponDamage() {
-<span class="nc bnc" id="L17" title="All 2 branches missed.">        return isBroken() ? 0 : damage;</span>
+<span class="pc bpc" id="L17" title="1 of 2 branches missed.">        return isBroken() ? 0 : damage;</span>
     }
 
     public WeaponType getWeaponType() {
-<span class="nc" id="L21">        return weaponType;</span>
+<span class="fc" id="L21">        return weaponType;</span>
     }
 
     public void damageDurability(int damage){
-<span class="nc" id="L25">        updateDurability(damage);</span>
-<span class="nc" id="L26">    }</span>
+<span class="fc" id="L25">        updateDurability(damage);</span>
+<span class="fc" id="L26">    }</span>
 
     public int getDamage(){
-<span class="nc" id="L29">        damageDurability(damage);</span>
-<span class="nc" id="L30">        return damage;</span>
+<span class="fc" id="L29">        damageDurability(damage);</span>
+<span class="fc" id="L30">        return damage;</span>
     }
 
     @Override
