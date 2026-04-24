@@ -1,29 +1,19 @@
 ,1,2,3,4,5,Category,% Left (1-2),% Right (4-5)
-Comment évaluez-vous votre compétence en tests logiciels ?,0.0,30.769,30.769,38.462,0.0,Aucune-Expert(e),30.769,38.462
-Comment évaluez-vous votre connaissance de Java?,0.0,0.0,61.538,38.462,0.0,Aucune-Expert(e),0.0,38.462
+Comment évaluez-vous votre compétence en tests logiciels ?,0.0,0.0,0.0,0.0,0.0,Aucune-Expert(e),0.0,0.0
+Comment évaluez-vous votre connaissance de Java?,0.0,0.0,0.0,0.0,0.0,Aucune-Expert(e),0.0,0.0
 Comment évaluez-vous votre motivation à écrire des tests logiciels ?,7.692,15.385,53.846,23.077,0.0,Faible-Élevée,23.076999999999998,23.077
 Accomplissement,0.0,7.692,30.769,38.462,23.077,Pas du tout d'accord-Tout à fait d'accord,7.692,61.539
-Avoir des succès d'équipe vous a.,0.0,15.385,7.692,15.385,7.692,Pas du tout d'accord-Tout à fait d'accord,15.385,23.076999999999998
-Ce système est facile à utiliser.,0.0,7.692,7.692,38.462,46.154,Pas du tout d'accord-Tout à fait d'accord,7.692,84.61600000000001
-Ce système est inutilement complexe.,53.846,38.462,7.692,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,92.30799999999999,0.0
-Ce système est très lourd à utiliser.,69.231,15.385,15.385,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,84.616,0.0
-Dépendre des autres pour débloquer les succès vous a.,0.0,15.385,15.385,7.692,7.692,Pas du tout d'accord-Tout à fait d'accord,15.385,15.384
 Ennui,46.154,38.462,15.385,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,84.61600000000001,0.0
 Fatigue,61.538,15.385,23.077,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,76.923,0.0
 Frustration,46.154,30.769,0.0,23.077,0.0,Pas du tout d'accord-Tout à fait d'accord,76.923,23.077
-Il y a trop d'incohérences dans ce système.,69.231,15.385,15.385,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,84.616,0.0
 Il y avait une ambiance de compétition dans l'équipe.,7.692,23.077,15.385,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,30.769000000000002,0.0
-J'ai eu besoin d'apprendre beaucoup de choses avant de pouvoir utiliser ce système.,53.846,30.769,0.0,15.385,0.0,Pas du tout d'accord-Tout à fait d'accord,84.615,15.385
 J'ai été distrait par le mode de jeu pendant que j'écrivais mes tests.,76.923,15.385,7.692,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,92.308,0.0
-J'aurais besoin du soutien d'un technicien pour être capable d'utiliser ce système.,38.462,46.154,7.692,7.692,0.0,Pas du tout d'accord-Tout à fait d'accord,84.61600000000001,7.692
 J'étais plus motivé à écrire des tests avec le mode de jeu que d'habitude.,0.0,7.692,38.462,53.846,0.0,Pas du tout d'accord-Tout à fait d'accord,7.692,53.846
-Je me suis senti·e très confiant·e en utilisant ce système.,7.692,7.692,30.769,46.154,7.692,Pas du tout d'accord-Tout à fait d'accord,15.384,53.846000000000004
-Je voudrais utiliser ce système fréquemment.,0.0,23.077,53.846,23.077,0.0,Pas du tout d'accord-Tout à fait d'accord,23.077,23.077
-La plupart des gens apprendront à utiliser ce système très rapidement.,0.0,7.692,15.385,46.154,30.769,Pas du tout d'accord-Tout à fait d'accord,7.692,76.923
 Le feedback des succès était suffisant pour connaitre mon avancement.,0.0,15.385,30.769,15.385,38.462,Pas du tout d'accord-Tout à fait d'accord,15.385,53.847
 Le système de mode de jeu m'incite à écrire plus de tests.,0.0,15.385,23.077,46.154,15.385,Pas du tout d'accord-Tout à fait d'accord,15.385,61.539
-Les différentes fonctionnalités de ce système sont bien intégrées.,0.0,7.692,7.692,61.538,23.077,Pas du tout d'accord-Tout à fait d'accord,7.692,84.615
 Les succès donnaient des objectifs clairs.,7.692,0.0,23.077,30.769,38.462,Pas du tout d'accord-Tout à fait d'accord,7.692,69.231
 Mon engouement pour un système gamifié avec uniquement un mode de jeu diminuerait au file du temps plusieurs semaines/mois/années) sentiment de lassitude).,0.0,46.154,15.385,23.077,15.385,Pas du tout d'accord-Tout à fait d'accord,46.154,38.462
-Savoir que vous deviez débloquer un palier pour permettre à vos coéquipiers d'accéder à des succès vous a.,7.692,0.0,7.692,15.385,15.385,Pas du tout d'accord-Tout à fait d'accord,7.692,30.77
 Stimulation,0.0,7.692,46.154,30.769,15.385,Pas du tout d'accord-Tout à fait d'accord,7.692,46.153999999999996
+Avoir des succès d'équipe vous a.,0.0,15.385,7.692,15.385,7.692,Frustré-Amusé,15.385,23.076999999999998
+Dépendre des autres pour débloquer les succès vous a.,0.0,15.385,15.385,7.692,7.692,Frustré-Amusé,15.385,15.384
+Savoir que vous deviez débloquer un palier pour permettre à vos coéquipiers d'accéder à des succès vous a.,7.692,0.0,7.692,15.385,15.385,Stressé-Amusé,7.692,30.77
