@@ -1,15 +1,18 @@
 import pandas as pd
 
 questions = [
-    "S-Donner 3 points positifs du plugin",
-    "S-Donner 3 points négatifs du plugin",
-    "S-Donner 3 améliorations à apporter au plugin"
+    "Pouvez-vous citer trois points positifs du plugin ? ",
+    "Pouvez-vous citer trois points negatifs du plugin ? ",
+    "Quels succès auriez-vous souhaité voir dans le plugin ?"
 ]
 
-input_path = "generated/forms/data.csv"
+input_path_solo = "data/forms/SOLO.csv"
+input_path_team = "data/forms/TEAM.csv"
 output_path = "generated/forms/open-questions.tex"
 
-df = pd.read_csv(input_path)
+df_solo = pd.read_csv(input_path_solo)
+df_team = pd.read_csv(input_path_team)
+df = pd.concat([df_solo, df_team], ignore_index=True)
 print(df)
 data = df[questions]
 
@@ -25,9 +28,9 @@ with open(output_path, "w", encoding="utf-8") as f:
     f.write("\t\\begin{longtable}{|p{5.1cm}|p{5.1cm}|p{5.1cm}|}\n")
     f.write("\t\t\\hline\n")
 
-    f.write("\t\t\\textbf{" + questions[0][2:] + "}")
+    f.write("\t\t\\textbf{" + questions[0] + "}")
     for question in questions[1:]:
-        f.write(" & \\textbf{" + question[2:] + "}")
+        f.write(" & \\textbf{" + question + "}")
 
     f.write(" \\\\\n\t\t\hline\n")
 

@@ -1,8 +1,16 @@
 ,1,2,3,4,5,Category,Group,% Left (1-2),% Right (4-5)
+Comment évaluez-vous votre motivation à écrire des tests logiciels ?,14.286,14.286,57.143,14.286,0.0,Faible-Élevée,solo,28.572,14.286
+Comment évaluez-vous votre motivation à écrire des tests logiciels ?,0.0,16.667,50.0,33.333,0.0,Faible-Élevée,team,16.667,33.333
+Savoir que vous deviez débloquer un palier pour permettre à vos coéquipiers d'accéder à des succès vous a.,0.0,0.0,0.0,0.0,0.0,Stressé-Amusé,solo,0.0,0.0
+Savoir que vous deviez débloquer un palier pour permettre à vos coéquipiers d'accéder à des succès vous a.,16.667,0.0,16.667,33.333,33.333,Stressé-Amusé,team,16.667,66.666
 Comment évaluez-vous votre compétence en tests logiciels ?,0.0,0.0,0.0,0.0,0.0,Aucune-Expert(e),solo,0.0,0.0
 Comment évaluez-vous votre connaissance de Java?,0.0,0.0,0.0,0.0,0.0,Aucune-Expert(e),solo,0.0,0.0
 Comment évaluez-vous votre compétence en tests logiciels ?,0.0,0.0,0.0,0.0,0.0,Aucune-Expert(e),team,0.0,0.0
 Comment évaluez-vous votre connaissance de Java?,0.0,0.0,0.0,0.0,0.0,Aucune-Expert(e),team,0.0,0.0
+Avoir des succès d'équipe vous a.,0.0,0.0,0.0,0.0,0.0,Frustré-Amusé,solo,0.0,0.0
+Dépendre des autres pour débloquer les succès vous a.,0.0,0.0,0.0,0.0,0.0,Frustré-Amusé,solo,0.0,0.0
+Avoir des succès d'équipe vous a.,0.0,33.333,16.667,33.333,16.667,Frustré-Amusé,team,33.333,50.0
+Dépendre des autres pour débloquer les succès vous a.,0.0,33.333,33.333,16.667,16.667,Frustré-Amusé,team,33.333,33.334
 Accomplissement,0.0,14.286,0.0,71.429,14.286,Pas du tout d'accord-Tout à fait d'accord,solo,14.286,85.715
 Ennui,42.857,57.143,0.0,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,solo,100.0,0.0
 Fatigue,71.429,0.0,28.571,0.0,0.0,Pas du tout d'accord-Tout à fait d'accord,solo,71.429,0.0
@@ -27,11 +35,3 @@ Le système de mode de jeu m'incite à écrire plus de tests.,0.0,33.333,16.667,
 Les succès donnaient des objectifs clairs.,16.667,0.0,33.333,33.333,16.667,Pas du tout d'accord-Tout à fait d'accord,team,16.667,50.0
 Mon engouement pour un système gamifié avec uniquement un mode de jeu diminuerait au file du temps plusieurs semaines/mois/années) sentiment de lassitude).,0.0,33.333,33.333,16.667,16.667,Pas du tout d'accord-Tout à fait d'accord,team,33.333,33.334
 Stimulation,0.0,16.667,50.0,16.667,16.667,Pas du tout d'accord-Tout à fait d'accord,team,16.667,33.334
-Avoir des succès d'équipe vous a.,0.0,0.0,0.0,0.0,0.0,Frustré-Amusé,solo,0.0,0.0
-Dépendre des autres pour débloquer les succès vous a.,0.0,0.0,0.0,0.0,0.0,Frustré-Amusé,solo,0.0,0.0
-Avoir des succès d'équipe vous a.,0.0,33.333,16.667,33.333,16.667,Frustré-Amusé,team,33.333,50.0
-Dépendre des autres pour débloquer les succès vous a.,0.0,33.333,33.333,16.667,16.667,Frustré-Amusé,team,33.333,33.334
-Comment évaluez-vous votre motivation à écrire des tests logiciels ?,14.286,14.286,57.143,14.286,0.0,Faible-Élevée,solo,28.572,14.286
-Comment évaluez-vous votre motivation à écrire des tests logiciels ?,0.0,16.667,50.0,33.333,0.0,Faible-Élevée,team,16.667,33.333
-Savoir que vous deviez débloquer un palier pour permettre à vos coéquipiers d'accéder à des succès vous a.,0.0,0.0,0.0,0.0,0.0,Stressé-Amusé,solo,0.0,0.0
-Savoir que vous deviez débloquer un palier pour permettre à vos coéquipiers d'accéder à des succès vous a.,16.667,0.0,16.667,33.333,33.333,Stressé-Amusé,team,16.667,66.666

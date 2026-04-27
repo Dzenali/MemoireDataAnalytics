@@ -1,6 +1,6 @@
 ﻿**********************
 Début de la transcription Windows PowerShell
-Heure de début : 20260421132255
+Heure de début : 20260423135644
 Nom d'utilisateur : DZENJUNGLE\fullb
 Utilisateur runAs :  DZENJUNGLE\fullb
 Nom de la configuration : 
@@ -10,8 +10,8 @@ Copyright (c) Microsoft Corporation.
 
 https://aka.ms/vscode-powershell
 Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
+" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260423T130710\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16056-283482.json' -FeatureFlags @() 
+ID de processus : 2512
 PSVersion: 5.1.26100.8115
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
@@ -24,59 +24,329 @@ SerializationVersion: 1.1.0.1
 Confirmer
 L'élément situé à l'emplacement C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\generated\reports-no-bug a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
 &Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-N
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Analyzing projets data
-
-Reports generated in 00:00:00.5357238
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421132317
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421132653
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
 O
 Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
 
 
 Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
 Analyzing projets data
+mvn : 1:58:07 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:07 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:58:07 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:07 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
 
-Reports generated in 00:00:00.0041442
+1:58:07 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:58:07 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:58:08 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:08 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:11 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:11 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:11 PM PIT >> INFO : Sent tests to minion
+1:58:11 PM PIT >> INFO : Sent tests to minion
+1:58:14 PM PIT >> INFO : Calculated coverage in 5 seconds.
+1:58:14 PM PIT >> INFO : Calculated coverage in 5 seconds.
+1:58:16 PM PIT >> INFO : Created 21 mutation test units
+1:58:16 PM PIT >> INFO : Created 21 mutation test units
+1:59:15 PM PIT >> INFO : Completed in 68 seconds
+1:59:15 PM PIT >> INFO : Completed in 68 seconds
+mvn : 1:58:11 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:11 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:58:11 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:11 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:58:11 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:58:11 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:58:12 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:12 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:14 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:14 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:14 PM PIT >> INFO : Sent tests to minion
+1:58:14 PM PIT >> INFO : Sent tests to minion
+1:58:15 PM PIT >> INFO : Calculated coverage in 3 seconds.
+1:58:15 PM PIT >> INFO : Calculated coverage in 3 seconds.
+1:58:17 PM PIT >> INFO : Created 21 mutation test units
+1:58:17 PM PIT >> INFO : Created 21 mutation test units
+1:58:20 PM PIT >> INFO : Completed in 9 seconds
+1:58:20 PM PIT >> INFO : Completed in 9 seconds
+mvn : 1:58:08 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:08 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:58:08 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:08 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:58:08 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:58:08 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:58:10 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:10 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:13 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:13 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:13 PM PIT >> INFO : Sent tests to minion
+1:58:13 PM PIT >> INFO : Sent tests to minion
+1:58:14 PM PIT >> INFO : Calculated coverage in 4 seconds.
+1:58:14 PM PIT >> INFO : Calculated coverage in 4 seconds.
+1:58:16 PM PIT >> INFO : Created 21 mutation test units
+1:58:16 PM PIT >> INFO : Created 21 mutation test units
+1:58:19 PM PIT >> INFO : Completed in 10 seconds
+1:58:19 PM PIT >> INFO : Completed in 10 seconds
+mvn : 1:58:06 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:06 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:58:06 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:06 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:58:06 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:58:06 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:58:07 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:07 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:09 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:09 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:09 PM PIT >> INFO : Sent tests to minion
+1:58:09 PM PIT >> INFO : Sent tests to minion
+1:58:12 PM PIT >> INFO : Calculated coverage in 4 seconds.
+1:58:12 PM PIT >> INFO : Calculated coverage in 4 seconds.
+1:58:12 PM PIT >> INFO : Created 21 mutation test units
+1:58:12 PM PIT >> INFO : Created 21 mutation test units
+1:58:34 PM PIT >> INFO : Completed in 28 seconds
+1:58:34 PM PIT >> INFO : Completed in 28 seconds
+mvn : 1:58:46 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:46 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:58:46 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:58:46 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:58:46 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:58:46 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:58:47 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:47 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:58:48 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:48 PM PIT >> INFO : Sending 65 test classes to minion
+1:58:48 PM PIT >> INFO : Sent tests to minion
+1:58:48 PM PIT >> INFO : Sent tests to minion
+1:58:50 PM PIT >> INFO : Calculated coverage in 3 seconds.
+1:58:50 PM PIT >> INFO : Calculated coverage in 3 seconds.
+1:58:51 PM PIT >> INFO : Created 21 mutation test units
+1:58:51 PM PIT >> INFO : Created 21 mutation test units
+1:59:15 PM PIT >> INFO : Completed in 28 seconds
+1:59:15 PM PIT >> INFO : Completed in 28 seconds
+mvn : 1:59:15 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:59:15 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:59:15 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:59:15 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:59:15 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:59:15 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:59:16 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:59:16 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:59:17 PM PIT >> INFO : Sending 65 test classes to minion
+1:59:17 PM PIT >> INFO : Sending 65 test classes to minion
+1:59:17 PM PIT >> INFO : Sent tests to minion
+1:59:17 PM PIT >> INFO : Sent tests to minion
+1:59:18 PM PIT >> INFO : Calculated coverage in 2 seconds.
+1:59:18 PM PIT >> INFO : Calculated coverage in 2 seconds.
+1:59:19 PM PIT >> INFO : Created 21 mutation test units
+1:59:19 PM PIT >> INFO : Created 21 mutation test units
+1:59:42 PM PIT >> INFO : Completed in 26 seconds
+1:59:42 PM PIT >> INFO : Completed in 26 seconds
+mvn : 1:59:27 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:59:27 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:59:27 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:59:27 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:59:27 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:59:27 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:59:27 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:59:27 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:59:29 PM PIT >> INFO : Sending 65 test classes to minion
+1:59:29 PM PIT >> INFO : Sending 65 test classes to minion
+1:59:29 PM PIT >> INFO : Sent tests to minion
+1:59:29 PM PIT >> INFO : Sent tests to minion
+1:59:31 PM PIT >> INFO : Calculated coverage in 3 seconds.
+1:59:31 PM PIT >> INFO : Calculated coverage in 3 seconds.
+1:59:32 PM PIT >> INFO : Created 21 mutation test units
+1:59:32 PM PIT >> INFO : Created 21 mutation test units
+1:59:35 PM PIT >> INFO : Completed in 8 seconds
+1:59:35 PM PIT >> INFO : Completed in 8 seconds
+mvn : 1:59:56 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:59:56 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 1:59:56 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1:59:56 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+1:59:56 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+1:59:56 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+1:59:57 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:59:57 PM PIT >> INFO : Created 25 mutation test units in pre scan
+1:59:58 PM PIT >> INFO : Sending 65 test classes to minion
+1:59:58 PM PIT >> INFO : Sending 65 test classes to minion
+1:59:58 PM PIT >> INFO : Sent tests to minion
+1:59:58 PM PIT >> INFO : Sent tests to minion
+2:00:00 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:00:00 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:00:00 PM PIT >> INFO : Created 21 mutation test units
+2:00:00 PM PIT >> INFO : Created 21 mutation test units
+2:00:21 PM PIT >> INFO : Completed in 25 seconds
+2:00:21 PM PIT >> INFO : Completed in 25 seconds
+mvn : 2:00:05 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2:00:05 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 2:00:05 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2:00:05 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+2:00:05 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+2:00:05 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:00:05 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:00:05 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:00:06 PM PIT >> INFO : Sending 65 test classes to minion
+2:00:06 PM PIT >> INFO : Sending 65 test classes to minion
+2:00:06 PM PIT >> INFO : Sent tests to minion
+2:00:06 PM PIT >> INFO : Sent tests to minion
+2:00:08 PM PIT >> INFO : Calculated coverage in 2 seconds.
+2:00:08 PM PIT >> INFO : Calculated coverage in 2 seconds.
+2:00:08 PM PIT >> INFO : Created 21 mutation test units
+2:00:08 PM PIT >> INFO : Created 21 mutation test units
+2:00:10 PM PIT >> INFO : Completed in 5 seconds
+2:00:10 PM PIT >> INFO : Completed in 5 seconds
+mvn : 2:00:05 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2:00:05 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 2:00:05 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2:00:05 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+2:00:05 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+2:00:05 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:00:05 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:00:05 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:00:06 PM PIT >> INFO : Sending 65 test classes to minion
+2:00:06 PM PIT >> INFO : Sending 65 test classes to minion
+2:00:06 PM PIT >> INFO : Sent tests to minion
+2:00:06 PM PIT >> INFO : Sent tests to minion
+2:00:08 PM PIT >> INFO : Calculated coverage in 2 seconds.
+2:00:08 PM PIT >> INFO : Calculated coverage in 2 seconds.
+2:00:08 PM PIT >> INFO : Created 21 mutation test units
+2:00:08 PM PIT >> INFO : Created 21 mutation test units
+2:00:16 PM PIT >> INFO : Completed in 11 seconds
+2:00:16 PM PIT >> INFO : Completed in 11 seconds
+mvn : 2:00:16 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2:00:16 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+mvn : 2:00:16 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+Au caractère Ligne:51 : 13
++             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2:00:16 PM PIT ... not installed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+2:00:16 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+issue.
+2:00:16 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:00:17 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:00:17 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:00:17 PM PIT >> INFO : Sending 65 test classes to minion
+2:00:17 PM PIT >> INFO : Sending 65 test classes to minion
+2:00:17 PM PIT >> INFO : Sent tests to minion
+2:00:17 PM PIT >> INFO : Sent tests to minion
+2:00:18 PM PIT >> INFO : Calculated coverage in 1 seconds.
+2:00:18 PM PIT >> INFO : Calculated coverage in 1 seconds.
+2:00:19 PM PIT >> INFO : Created 21 mutation test units
+2:00:19 PM PIT >> INFO : Created 21 mutation test units
+2:00:25 PM PIT >> INFO : Completed in 8 seconds
+2:00:25 PM PIT >> INFO : Completed in 8 seconds
+
+Reports generated in 00:03:44.4425029
 **********************
 Fin de la transcription Windows PowerShell
-Heure de fin : 20260421132712
+Heure de fin : 20260423140045
 **********************
 **********************
 Début de la transcription Windows PowerShell
-Heure de début : 20260421133432
+Heure de début : 20260423141010
 Nom d'utilisateur : DZENJUNGLE\fullb
 Utilisateur runAs :  DZENJUNGLE\fullb
 Nom de la configuration : 
@@ -86,8 +356,8 @@ Copyright (c) Microsoft Corporation.
 
 https://aka.ms/vscode-powershell
 Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
+" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260423T130710\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16056-283482.json' -FeatureFlags @() 
+ID de processus : 2512
 PSVersion: 5.1.26100.8115
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
@@ -97,1155 +367,6 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-O
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Analyzing projets data
-
-Reports generated in 00:00:00.0065601
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421133436
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421133641
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-O
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Analyzing projets data
-
-Reports generated in 00:00:00.0051296
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421133652
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421134031
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 0 uploads:
-Analyzing projets data
-
-Reports generated in 00:00:00.0099660
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421134033
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421134242
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de 
-script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin 
-d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-Start-ThreadJob : Le terme «Start-ThreadJob» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un
-chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:56 : 12
-+     $job = Start-ThreadJob -ScriptBlock {
-+            ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Start-ThreadJob:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-Analyzing projets data
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Wait-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-Wait-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:129 : 13
-+     $Jobs | Wait-Job | Receive-Job
-+             ~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Wait-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.WaitJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-Remove-Job : Impossible de valider l'argument sur le paramètre «Job». L’argument est Null ou vide. Indiquez un argument 
-qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-Remove-Job : Impossible de valider l'argument sur le paramètre « Job ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez.
-Au caractère C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\CodeAnalyzer.ps1:130 : 13
-+     $Jobs | Remove-Job
-+             ~~~~~~~~~~
-    + CategoryInfo          : InvalidData : (:) [Remove-Job], ParameterBindingValidationException
-    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.RemoveJobCommand
-
-
-Reports generated in 00:00:02.8748295
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421134248
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421134529
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Analyzing projets data
-
-Reports generated in 00:00:04.7230319
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421134538
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135010
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Analyzing projets data
-
-Reports generated in 00:00:06.6496855
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135021
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135031
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Analyzing projets data
-
-Reports generated in 00:00:00.4586381
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135037
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135058
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Analyzing projets data
-
-Reports generated in 00:00:00.4184268
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135103
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135253
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Analyzing projets data
-
-Reports generated in 00:00:06.9040452
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135304
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135336
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Analyzing projets data
-
-Reports generated in 00:00:00.3423420
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135341
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135502
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-O
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Analyzing projets data
-
-Reports generated in 00:00:00.0026702
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135509
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135724
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-O
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 0 uploads:
-Analyzing projets data
-
-Reports generated in 00:00:00.0055636
-**********************
-Fin de la transcription Windows PowerShell
-Heure de fin : 20260421135728
-**********************
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421135754
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T074840\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20132-899340.json' -FeatureFlags @() 
-ID de processus : 19356
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-O
-Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-
-
-Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
-Analyzing projets data
-PS>Erreur de terminaison () : « Le pipeline a été arrêté. »
->> Erreur de terminaison () : « Le pipeline a été arrêté. »
->> Erreur de terminaison () : « Le pipeline a été arrêté. »
->> Erreur de terminaison () : « Le pipeline a été arrêté. »
-]633;A]633;P;Cwd=C:\x5cUsers\x5cfullb\x5cCours\x5cMémoire\x5cprojet\x5cMemoireDataAnalyticsPS C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics> ]633;B
-PS>CommandInvocation (Remove-Variable) : « Remove-Variable »
->> Liaison de paramètre (Remove-Variable) : nom = « Name » ; valeur = « __psEditorServices_DebugServer »
->> Liaison de paramètre (Remove-Variable) : nom = « Force » ; valeur = « True »
-PS>CommandInvocation (Get-PSBreakpoint) : « Get-PSBreakpoint »
->> CommandInvocation (Remove-PSBreakpoint) : « Remove-PSBreakpoint »
-PS>CommandInvocation (Set-Variable) : « Set-Variable »
->> Liaison de paramètre (Set-Variable) : nom = « Name » ; valeur = « __psEditorServices_DebugServer »
->> Liaison de paramètre (Set-Variable) : nom = « Value » ; valeur = « OmniSharp.Extensions.DebugAdapter.Server.DefaultDebugAdapterServerFacade »
->> Liaison de paramètre (Set-Variable) : nom = « Description » ; valeur = « DO NOT USE: for internal use only. »
->> Liaison de paramètre (Set-Variable) : nom = « Scope » ; valeur = « Global »
->> Liaison de paramètre (Set-Variable) : nom = « Option » ; valeur = « ReadOnly »
-PS>CommandInvocation (Get-PSBreakpoint) : « Get-PSBreakpoint »
-**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20260421140215
-Nom d'utilisateur : DZENJUNGLE\fullb
-Utilisateur runAs :  DZENJUNGLE\fullb
-Nom de la configuration : 
-Ordinateur : DZENJUNGLE (Microsoft Windows NT 10.0.26200.0)
-Application hôte : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\fullb\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
-Copyright (c) Microsoft Corporation.
-
-https://aka.ms/vscode-powershell
-Type 'help' to get help.
-" -LogLevel 'Warning' -LogPath 'c:\Users\fullb\AppData\Roaming\Code\logs\20260421T140140\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\fullb\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-13652-132084.json' -FeatureFlags @() 
-ID de processus : 11784
-PSVersion: 5.1.26100.8115
-PSEdition: Desktop
-PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
-BuildVersion: 10.0.26100.8115
-CLRVersion: 4.0.30319.42000
-WSManStackVersion: 3.0
-PSRemotingProtocolVersion: 2.3
-SerializationVersion: 1.1.0.1
-**********************
-Confirmer
-L'élément situé à l'emplacement C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
-&Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
-O
 Confirmer
 L'élément situé à l'emplacement C:\Users\fullb\Cours\Mémoire\projet\MemoireDataAnalytics\generated\reports-no-bug a des enfants et le paramètre Recurse n'a pas été spécifié. Si vous continuez, tous les enfants seront supprimés avec l'élément. Êtes-vous sûr de vouloir continuer ?
 &Oui  Oui pour &tout  &Non  Non pour to&ut  &Suspendre
@@ -1254,332 +375,318 @@ Cloning project dd-gamif to C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDat
 
 
 Project cloned : C:\Users\fullb\AppData\Local\Temp\GamifiedTestingDataAnalyzer\dd-gamif
-Found 13 uploads:
-  - 0947a22a-ec40-4f49-867b-330a623a1a35
-  - 0d271530-be17-4538-bf04-dde3c6069b5f
-  - 11555248-3f01-4d1c-9a71-ef7caf9150fa
-  - 70c71a91-06a1-4bf4-8e56-f4327b1c8b3f
-  - 70e85b5e-92d4-498a-9079-ba881f5b3b82
-  - 7234f6dc-a316-4576-8453-6e10d7cf1c3d
-  - 84c2c4e6-1c27-4f2c-808b-9e84a7cb257e
-  - 960ad9f8-2b83-4526-9cfb-1a59cec049a6
-  - bcec21aa-2246-4ee8-9f2a-3998a5cde697
-  - c27240eb-52c0-4436-aa0f-e7f97a94a725
-  - c44fb8ae-6e48-4f56-b5ea-1727c487a5e7
-  - eda1acdb-c4bb-4425-a39f-4c25a998e739
-  - fb270a09-6a45-4eae-8f9a-3c808faec3ee
 Analyzing projets data
-mvn : 2:03:43 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:11:09 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:43 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:09 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:03:43 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:11:09 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:43 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:09 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:03:43 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:11:09 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:03:43 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:45 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:45 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:45 PM PIT >> INFO : Sent tests to minion
-2:03:45 PM PIT >> INFO : Sent tests to minion
-2:03:51 PM PIT >> INFO : Calculated coverage in 7 seconds.
-2:03:51 PM PIT >> INFO : Calculated coverage in 7 seconds.
-2:03:52 PM PIT >> INFO : Created 21 mutation test units
-2:03:52 PM PIT >> INFO : Created 21 mutation test units
-2:05:20 PM PIT >> INFO : Completed in 97 seconds
-2:05:20 PM PIT >> INFO : Completed in 97 seconds
-mvn : 2:03:43 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:11:09 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:11:10 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:10 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:12 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:12 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:12 PM PIT >> INFO : Sent tests to minion
+2:11:12 PM PIT >> INFO : Sent tests to minion
+2:11:16 PM PIT >> INFO : Calculated coverage in 5 seconds.
+2:11:16 PM PIT >> INFO : Calculated coverage in 5 seconds.
+2:11:16 PM PIT >> INFO : Created 21 mutation test units
+2:11:16 PM PIT >> INFO : Created 21 mutation test units
+2:12:45 PM PIT >> INFO : Completed in 95 seconds
+2:12:45 PM PIT >> INFO : Completed in 95 seconds
+mvn : 2:11:11 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:43 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:11 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:03:43 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:11:11 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:43 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:11 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:03:43 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:11:11 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:03:43 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:45 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:45 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:45 PM PIT >> INFO : Sent tests to minion
-2:03:45 PM PIT >> INFO : Sent tests to minion
-2:03:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:03:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:03:48 PM PIT >> INFO : Created 21 mutation test units
-2:03:48 PM PIT >> INFO : Created 21 mutation test units
-2:03:50 PM PIT >> INFO : Completed in 7 seconds
-2:03:50 PM PIT >> INFO : Completed in 7 seconds
-mvn : 2:03:42 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:11:11 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:11:12 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:12 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:14 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:14 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:14 PM PIT >> INFO : Sent tests to minion
+2:11:14 PM PIT >> INFO : Sent tests to minion
+2:11:16 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:11:16 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:11:16 PM PIT >> INFO : Created 21 mutation test units
+2:11:16 PM PIT >> INFO : Created 21 mutation test units
+2:11:19 PM PIT >> INFO : Completed in 7 seconds
+2:11:19 PM PIT >> INFO : Completed in 7 seconds
+mvn : 2:11:15 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:42 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:15 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:03:42 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:11:15 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:42 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:15 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:03:42 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:11:15 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:03:42 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:44 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:44 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:44 PM PIT >> INFO : Sent tests to minion
-2:03:44 PM PIT >> INFO : Sent tests to minion
-2:03:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:03:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:03:47 PM PIT >> INFO : Created 21 mutation test units
-2:03:47 PM PIT >> INFO : Created 21 mutation test units
-2:03:49 PM PIT >> INFO : Completed in 7 seconds
-2:03:49 PM PIT >> INFO : Completed in 7 seconds
-mvn : 2:03:42 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:11:15 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:11:16 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:16 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:20 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:20 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:20 PM PIT >> INFO : Sent tests to minion
+2:11:20 PM PIT >> INFO : Sent tests to minion
+2:11:21 PM PIT >> INFO : Calculated coverage in 5 seconds.
+2:11:21 PM PIT >> INFO : Calculated coverage in 5 seconds.
+2:11:22 PM PIT >> INFO : Created 21 mutation test units
+2:11:22 PM PIT >> INFO : Created 21 mutation test units
+2:11:25 PM PIT >> INFO : Completed in 10 seconds
+2:11:25 PM PIT >> INFO : Completed in 10 seconds
+mvn : 2:11:11 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:42 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:11 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:03:42 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:11:11 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:03:42 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:11 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:03:42 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:11:11 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:03:42 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:03:44 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:44 PM PIT >> INFO : Sending 65 test classes to minion
-2:03:44 PM PIT >> INFO : Sent tests to minion
-2:03:44 PM PIT >> INFO : Sent tests to minion
-2:03:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:03:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:03:47 PM PIT >> INFO : Created 21 mutation test units
-2:03:47 PM PIT >> INFO : Created 21 mutation test units
-2:04:13 PM PIT >> INFO : Completed in 31 seconds
-2:04:13 PM PIT >> INFO : Completed in 31 seconds
-mvn : 2:04:19 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:11:11 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:11:12 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:12 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:15 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:15 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:15 PM PIT >> INFO : Sent tests to minion
+2:11:15 PM PIT >> INFO : Sent tests to minion
+2:11:16 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:11:16 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:11:17 PM PIT >> INFO : Created 21 mutation test units
+2:11:17 PM PIT >> INFO : Created 21 mutation test units
+2:11:43 PM PIT >> INFO : Completed in 31 seconds
+2:11:43 PM PIT >> INFO : Completed in 31 seconds
+mvn : 2:11:41 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:04:19 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:41 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:04:19 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:11:41 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:04:19 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:11:41 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:04:19 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:11:41 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:04:19 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:04:21 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:04:21 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:04:22 PM PIT >> INFO : Sending 65 test classes to minion
-2:04:22 PM PIT >> INFO : Sending 65 test classes to minion
-2:04:22 PM PIT >> INFO : Sent tests to minion
-2:04:22 PM PIT >> INFO : Sent tests to minion
-2:04:25 PM PIT >> INFO : Calculated coverage in 4 seconds.
-2:04:25 PM PIT >> INFO : Calculated coverage in 4 seconds.
-2:04:26 PM PIT >> INFO : Created 21 mutation test units
-2:04:26 PM PIT >> INFO : Created 21 mutation test units
-2:04:55 PM PIT >> INFO : Completed in 36 seconds
-2:04:55 PM PIT >> INFO : Completed in 36 seconds
-mvn : 2:04:48 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:11:41 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:11:42 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:42 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:11:43 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:43 PM PIT >> INFO : Sending 65 test classes to minion
+2:11:43 PM PIT >> INFO : Sent tests to minion
+2:11:43 PM PIT >> INFO : Sent tests to minion
+2:11:45 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:11:45 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:11:46 PM PIT >> INFO : Created 21 mutation test units
+2:11:46 PM PIT >> INFO : Created 21 mutation test units
+2:12:17 PM PIT >> INFO : Completed in 35 seconds
+2:12:17 PM PIT >> INFO : Completed in 35 seconds
+mvn : 2:12:09 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:04:48 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:12:09 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:04:48 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:12:09 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:04:48 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:12:09 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:04:48 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:12:09 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:04:48 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:04:49 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:04:49 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:04:50 PM PIT >> INFO : Sending 65 test classes to minion
-2:04:50 PM PIT >> INFO : Sending 65 test classes to minion
-2:04:50 PM PIT >> INFO : Sent tests to minion
-2:04:50 PM PIT >> INFO : Sent tests to minion
-2:04:52 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:04:52 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:04:53 PM PIT >> INFO : Created 21 mutation test units
-2:04:53 PM PIT >> INFO : Created 21 mutation test units
-2:05:19 PM PIT >> INFO : Completed in 31 seconds
-2:05:19 PM PIT >> INFO : Completed in 31 seconds
-mvn : 2:05:07 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:12:09 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:12:10 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:12:10 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:12:11 PM PIT >> INFO : Sending 65 test classes to minion
+2:12:11 PM PIT >> INFO : Sending 65 test classes to minion
+2:12:12 PM PIT >> INFO : Sent tests to minion
+2:12:12 PM PIT >> INFO : Sent tests to minion
+2:12:13 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:12:13 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:12:14 PM PIT >> INFO : Created 21 mutation test units
+2:12:14 PM PIT >> INFO : Created 21 mutation test units
+2:12:40 PM PIT >> INFO : Completed in 31 seconds
+2:12:40 PM PIT >> INFO : Completed in 31 seconds
+mvn : 2:12:30 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:07 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:12:30 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:05:07 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:12:30 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:07 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:12:30 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:05:07 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:12:30 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:05:07 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:05:08 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:08 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:09 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:09 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:09 PM PIT >> INFO : Sent tests to minion
-2:05:09 PM PIT >> INFO : Sent tests to minion
-2:05:11 PM PIT >> INFO : Calculated coverage in 2 seconds.
-2:05:11 PM PIT >> INFO : Calculated coverage in 2 seconds.
-2:05:11 PM PIT >> INFO : Created 21 mutation test units
-2:05:11 PM PIT >> INFO : Created 21 mutation test units
-2:05:14 PM PIT >> INFO : Completed in 6 seconds
-2:05:14 PM PIT >> INFO : Completed in 6 seconds
-mvn : 2:05:17 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:12:30 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:12:30 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:12:30 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:12:32 PM PIT >> INFO : Sending 65 test classes to minion
+2:12:32 PM PIT >> INFO : Sending 65 test classes to minion
+2:12:32 PM PIT >> INFO : Sent tests to minion
+2:12:32 PM PIT >> INFO : Sent tests to minion
+2:12:34 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:12:34 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:12:35 PM PIT >> INFO : Created 21 mutation test units
+2:12:35 PM PIT >> INFO : Created 21 mutation test units
+2:12:36 PM PIT >> INFO : Completed in 6 seconds
+2:12:36 PM PIT >> INFO : Completed in 6 seconds
+mvn : 2:12:45 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:17 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:12:45 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:05:17 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:12:45 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:17 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:12:45 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:05:17 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:12:45 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:05:17 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:05:18 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:18 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:20 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:20 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:20 PM PIT >> INFO : Sent tests to minion
-2:05:20 PM PIT >> INFO : Sent tests to minion
-2:05:22 PM PIT >> INFO : Calculated coverage in 4 seconds.
-2:05:22 PM PIT >> INFO : Calculated coverage in 4 seconds.
-2:05:23 PM PIT >> INFO : Created 21 mutation test units
-2:05:23 PM PIT >> INFO : Created 21 mutation test units
-2:05:53 PM PIT >> INFO : Completed in 36 seconds
-2:05:53 PM PIT >> INFO : Completed in 36 seconds
-mvn : 2:05:41 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:12:45 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:12:46 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:12:46 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:12:47 PM PIT >> INFO : Sending 65 test classes to minion
+2:12:47 PM PIT >> INFO : Sending 65 test classes to minion
+2:12:47 PM PIT >> INFO : Sent tests to minion
+2:12:47 PM PIT >> INFO : Sent tests to minion
+2:12:49 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:12:49 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:12:49 PM PIT >> INFO : Created 21 mutation test units
+2:12:49 PM PIT >> INFO : Created 21 mutation test units
+2:13:16 PM PIT >> INFO : Completed in 30 seconds
+2:13:16 PM PIT >> INFO : Completed in 30 seconds
+mvn : 2:13:01 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:41 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:13:01 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:05:41 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:13:01 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:41 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:13:01 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:05:41 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:13:01 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:05:41 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:05:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:43 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:44 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:44 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:44 PM PIT >> INFO : Sent tests to minion
-2:05:44 PM PIT >> INFO : Sent tests to minion
-2:05:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:05:46 PM PIT >> INFO : Calculated coverage in 3 seconds.
-2:05:47 PM PIT >> INFO : Created 21 mutation test units
-2:05:47 PM PIT >> INFO : Created 21 mutation test units
-2:05:49 PM PIT >> INFO : Completed in 7 seconds
-2:05:49 PM PIT >> INFO : Completed in 7 seconds
-mvn : 2:05:57 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:13:01 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:13:01 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:13:01 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:13:03 PM PIT >> INFO : Sending 65 test classes to minion
+2:13:03 PM PIT >> INFO : Sending 65 test classes to minion
+2:13:03 PM PIT >> INFO : Sent tests to minion
+2:13:03 PM PIT >> INFO : Sent tests to minion
+2:13:05 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:13:05 PM PIT >> INFO : Calculated coverage in 3 seconds.
+2:13:06 PM PIT >> INFO : Created 21 mutation test units
+2:13:06 PM PIT >> INFO : Created 21 mutation test units
+2:13:07 PM PIT >> INFO : Completed in 6 seconds
+2:13:07 PM PIT >> INFO : Completed in 6 seconds
+mvn : 2:13:18 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:57 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:13:18 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:05:57 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:13:18 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:05:57 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:13:18 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:05:57 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:13:18 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:05:57 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:05:57 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:57 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:05:58 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:58 PM PIT >> INFO : Sending 65 test classes to minion
-2:05:58 PM PIT >> INFO : Sent tests to minion
-2:05:58 PM PIT >> INFO : Sent tests to minion
-2:05:59 PM PIT >> INFO : Calculated coverage in 2 seconds.
-2:05:59 PM PIT >> INFO : Calculated coverage in 2 seconds.
-2:06:00 PM PIT >> INFO : Created 21 mutation test units
-2:06:00 PM PIT >> INFO : Created 21 mutation test units
-2:06:06 PM PIT >> INFO : Completed in 9 seconds
-2:06:06 PM PIT >> INFO : Completed in 9 seconds
-mvn : 2:06:00 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+2:13:18 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:13:18 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:13:18 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:13:19 PM PIT >> INFO : Sending 65 test classes to minion
+2:13:19 PM PIT >> INFO : Sending 65 test classes to minion
+2:13:19 PM PIT >> INFO : Sent tests to minion
+2:13:19 PM PIT >> INFO : Sent tests to minion
+2:13:20 PM PIT >> INFO : Calculated coverage in 1 seconds.
+2:13:20 PM PIT >> INFO : Calculated coverage in 1 seconds.
+2:13:20 PM PIT >> INFO : Created 21 mutation test units
+2:13:20 PM PIT >> INFO : Created 21 mutation test units
+2:13:26 PM PIT >> INFO : Completed in 7 seconds
+2:13:26 PM PIT >> INFO : Completed in 7 seconds
+mvn : 2:13:18 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:06:00 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:13:18 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
-mvn : 2:06:00 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
+mvn : 2:13:18 PM PIT >> WARNING : JUnit 5 is on the classpath but the pitest junit 5 plugin is not installed.
 Au caractère Ligne:51 : 13
 +             mvn test-compile org.pitest:pitest-maven:mutationCoverage ...
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2:06:00 PM PIT ... not installed.:String) [], RemoteException
+    + CategoryInfo          : NotSpecified: (2:13:18 PM PIT ... not installed.:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
 
-2:06:00 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
+2:13:18 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an 
 issue.
-2:06:00 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
-2:06:00 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:06:00 PM PIT >> INFO : Created 25 mutation test units in pre scan
-2:06:01 PM PIT >> INFO : Sending 65 test classes to minion
-2:06:01 PM PIT >> INFO : Sending 65 test classes to minion
-2:06:01 PM PIT >> INFO : Sent tests to minion
-2:06:01 PM PIT >> INFO : Sent tests to minion
-2:06:02 PM PIT >> INFO : Calculated coverage in 2 seconds.
-2:06:02 PM PIT >> INFO : Calculated coverage in 2 seconds.
-2:06:03 PM PIT >> INFO : Created 21 mutation test units
-2:06:03 PM PIT >> INFO : Created 21 mutation test units
-2:06:13 PM PIT >> INFO : Completed in 13 seconds
-2:06:13 PM PIT >> INFO : Completed in 13 seconds
+2:13:18 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:13:19 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:13:19 PM PIT >> INFO : Created 25 mutation test units in pre scan
+2:13:20 PM PIT >> INFO : Sending 65 test classes to minion
+2:13:20 PM PIT >> INFO : Sending 65 test classes to minion
+2:13:20 PM PIT >> INFO : Sent tests to minion
+2:13:20 PM PIT >> INFO : Sent tests to minion
+2:13:20 PM PIT >> INFO : Calculated coverage in 1 seconds.
+2:13:20 PM PIT >> INFO : Calculated coverage in 1 seconds.
+2:13:21 PM PIT >> INFO : Created 21 mutation test units
+2:13:21 PM PIT >> INFO : Created 21 mutation test units
+2:13:28 PM PIT >> INFO : Completed in 9 seconds
+2:13:28 PM PIT >> INFO : Completed in 9 seconds
 
-Reports generated in 00:03:44.7580523
+Reports generated in 00:03:34.2907941
 **********************
 Fin de la transcription Windows PowerShell
-Heure de fin : 20260421140631
+Heure de fin : 20260423141348
 **********************
