@@ -79,7 +79,8 @@ foreach ($upload in $Uploads) {
         # JaCoCo
         Push-Location $DestProjet
             Write-Output "▶️ Running JaCoCo in $DestProjet"
-            mvn clean test "-Dmaven.test.failure.ignore=true" | Out-Null
+            mvn test "-Dmaven.test.failure.ignore=true" `
+                "-Dmaven.repo.local=$DestProjet\.m2" | Out-Null
         Pop-Location
 
         New-Item -ItemType Directory -Path $RapportDest -Force | Out-Null
@@ -101,7 +102,11 @@ foreach ($upload in $Uploads) {
         # Pi Test
         Push-Location $DestProjet
             Write-Output "▶️ Running PiTest in $DestProjet"
-            mvn test-compile org.pitest:pitest-maven:mutationCoverage "-Dmaven.testFailureIgnore=true" | Out-Null
+            mvn org.pitest:pitest-maven:mutationCoverage `
+                "-Dmaven.testFailureIgnore=true" `
+                "-DargLine=" `
+                "-Dmaven.repo.local=$DestProjet\.m2" `
+                "-Dplugin=org.pitest:pitest-junit5-plugin:1.2.1"  | Out-Null
         Pop-Location
 
         # Pi Test Report

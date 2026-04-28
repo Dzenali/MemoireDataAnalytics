@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Dragon.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-gamification</a> &gt; <a href="index.source.html" class="el_package">be.dzenali.gamification.entity.monster</a> &gt; <span class="el_source">Dragon.java</span></div><h1>Dragon.java</h1><pre class="source lang-java linenums">package be.dzenali.gamification.entity.monster;
+
+import be.dzenali.gamification.data.Aggressivity;
+import be.dzenali.gamification.data.StatBlock;
+import be.dzenali.gamification.entity.Monster;
+
+public class Dragon extends Monster {
+
+    /**
+     * The strongest few to be met
+     */
+    public Dragon() {
+<span class="fc" id="L13">        super(&quot;Dragon&quot;,</span>
+                15,
+                new StatBlock(20,20,20,20,20,20),
+                36,
+                20,
+                Aggressivity.HIGH,
+                5000);
+<span class="fc" id="L20">    }</span>
+
+    /**
+     * Deals twice less damage once it is grounded
+     * @return attack damage
+     */
+    @Override
+    public int getAttackDmg(){
+<span class="pc bpc" id="L28" title="1 of 2 branches missed.">        return canFly() ? super.getAttackDmg() : ((int)(super.getAttackDmg()*0.5));</span>
+    }
+
+    /**
+     * As 1.5x as much armor once grounded
+     * @return armorClass
+     */
+    @Override
+    public int getArmorClass(){
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">        return canFly() ? super.getArmorClass() : ((int)(super.getArmorClass()*1.5));</span>
+    }
+
+    /**
+     * Returns whether the dragon is above mid hp and so can fly
+     * @return whether it can fly (hp &gt;= max hp/2)
+     */
+    public boolean canFly(){
+<span class="pc bpc" id="L45" title="1 of 2 branches missed.">        return getHealthPoints().getCurrentHP() &gt;= (getHealthPoints().getMaxHP()/2);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
