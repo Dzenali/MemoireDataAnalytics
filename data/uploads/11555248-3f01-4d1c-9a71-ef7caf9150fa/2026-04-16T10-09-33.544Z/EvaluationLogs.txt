@@ -1,8 +1,0 @@
-2026-04-16 11:34:13.297 - Debug - Connect to ws://daliti.unamurcs.be:21474/ws
-2026-04-16 11:34:13.298 - Debug - Web socket state : Connecting
-2026-04-16 11:34:13.508 - Debug - Websocket connection opened
-2026-04-16 11:53:23.809 - Notification - Game mode selected : team
-2026-04-16 11:53:24.512 - Notification - Game mode selected : solo
-2026-04-16 12:09:34.406 - Debug - POST 2 files to http://daliti.unamurcs.be:21430/api/v1/experimentData :- Actions.csv (100 bytes)
-- EvaluationLogs.txt (338 bytes)
-
